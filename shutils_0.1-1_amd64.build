@@ -48,10 +48,10 @@ E: shutils: copyright-contains-dh_make-todo-boilerplate
 E: shutils source: debian-rules-is-dh_make-template
 E: shutils: description-is-dh_make-template
 E: shutils: helper-templates-in-copyright
-E: shutils: non-standard-toplevel-dir $HOME/
 E: shutils source: readme-source-is-dh_make-template
 E: shutils: script-without-interpreter control/preinst
 E: shutils: section-is-dh_make-template
+E: shutils: subdir-in-bin bin/shutils/
 W: shutils source: bad-homepage <insert the upstream URL, if relevant>
 W: shutils: bad-homepage <insert the upstream URL, if relevant>
 W: shutils: copyright-has-url-from-dh_make-boilerplate
@@ -66,16 +66,12 @@ W: shutils source: dh-make-template-in-source debian/salsa-ci.yml.ex
 W: shutils source: dh-make-template-in-source debian/shutils.cron.d.ex
 W: shutils source: dh-make-template-in-source debian/shutils.doc-base.EX
 W: shutils source: dh-make-template-in-source debian/watch.ex
-W: shutils: file-in-unusual-dir $HOME/bin/shutils/dr.sh
-W: shutils: file-in-unusual-dir $HOME/bin/shutils/gen.sh
-W: shutils: file-in-unusual-dir $HOME/bin/shutils/git.sh
-W: shutils: file-in-unusual-dir $HOME/bin/shutils/kube.sh
-W: shutils: file-in-unusual-dir $HOME/bin/shutils/loadvars.sh
-W: shutils: file-in-unusual-dir $HOME/usr/bin/shutils/dr.sh
-W: shutils: file-in-unusual-dir $HOME/usr/bin/shutils/gen.sh
-W: shutils: file-in-unusual-dir $HOME/usr/bin/shutils/git.sh
-W: shutils: file-in-unusual-dir $HOME/usr/bin/shutils/kube.sh
-W: shutils: file-in-unusual-dir $HOME/usr/bin/shutils/loadvars.sh
+W: shutils: executable-not-elf-or-script bin/shutils/dr.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gen.sh
+W: shutils: executable-not-elf-or-script bin/shutils/git.sh
+W: shutils: executable-not-elf-or-script bin/shutils/kube.sh
+W: shutils: executable-not-elf-or-script bin/shutils/loadvars.sh
+W: shutils source: maintainer-script-lacks-debhelper-token debian/postinst
 W: shutils source: maintainer-script-lacks-debhelper-token debian/preinst
 W: shutils: new-package-should-close-itp-bug
 W: shutils: readme-debian-contains-debmake-template

@@ -3,7 +3,7 @@
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-myinfo () {
+sh_minfo () {
   printf "CPU: "
   cat /proc/cpuinfo | grep "model name" | head -1 | awk '{ for (i = 4; i <= NF; i++) printf "%s ", $i }'
   printf "\n"
@@ -31,7 +31,7 @@ printf "GPU: "
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-kp () {
+sh_kp () {
   ps aux | grep $1 > /dev/null
   mypid=$(pidof $1)
   if [ "$mypid" != "" ]; then
@@ -52,7 +52,7 @@ kp () {
 # Returns:
 #   process name
 #######################################
-psa () {
+sh_psa () {
   ps aux | grep $1
 }
 
@@ -65,7 +65,7 @@ psa () {
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-ssd () {
+sh_ssd () {
   echo "Device         Total  Used  Free  Pct MntPoint"
   df -h | grep "/dev/sd"
   df -h | grep "/mnt/"
@@ -81,7 +81,7 @@ ssd () {
 # Returns:
 #   directory path
 #######################################
-ffirst () {
+sh_ffirst () {
 
   if [ "$#" -eq 1 ]
   then

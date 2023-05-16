@@ -1,2 +1,2 @@
-*.sh $HOME/bin/shutils
-*.sh $HOME/usr/bin/shutils
+*.sh bin/shutils
+*.sh usr/share/shutils

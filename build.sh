@@ -16,6 +16,8 @@ dh_make --indep --createorig
 # Create the debian/install and preinst files
 cp ../install debian/install
 cp ../preinst debian/preinst
+cp ../postinst debian/postinst
+
 debuild -us -uc
 
 sudo dpkg -i ../shutils_0.1-1_all.deb

@@ -9,7 +9,7 @@
 # Returns:
 #   0 if pod was delete, non-zero on error.
 #######################################
-delpod() {
+sh_delpod() {
 
 local podname="$1"
 
@@ -39,7 +39,7 @@ return 0
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-logpod() {
+sh_pod_log() {
 
 local podname="$1"
 
@@ -67,7 +67,7 @@ kubectl get pods -n $mynamespace --no-headers=true | awk /${podname}/'{print $1}
 # Returns:
 #   pod fullname
 #######################################
-getpod() {
+sh_pod_get() {
 
 local podname="$1"
 
@@ -95,7 +95,7 @@ kubectl get pods -n $mynamespace --no-headers=true | awk /${podname}/'{print $1}
 #   0 to indicate that the pod is in the `kubectl get pods` list.
 #   1 to indicate that the pod name is invalid (not found)
 #######################################
-function is_pod_name_valid {
+function sh_pod_valid_name {
   for pod in $(kubectl get pods | awk 'NR>1{print $1}'); do
     if [[ "$pod" == "$1" ]]; then
       return 0  # pod name found a match, then returns True
