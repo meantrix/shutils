@@ -1,0 +1,13 @@
+echo "Looking for old version of shutils..."
+
+if [ -f $HOME/bin/shutils]
+then
+    sudo rm -f $HOME/bin/shutils
+    echo "Removed old shutils from ~/bin..."
+fi
+
+if [ -f $HOME/usr/local/bin/shutils] 
+then
+    sudo rm -f $HOME/usr/local/bin/shutils
+    echo "Removed old shutils from /usr/local/bin..."
+fi

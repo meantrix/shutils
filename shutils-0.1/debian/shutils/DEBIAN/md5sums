@@ -1,3 +1,13 @@
-c0871409f6c033bbe3db113f681b2611  usr/share/doc/shutils/README.Debian
-0014f3da55b94a32bafb5eb3d5d782fa  usr/share/doc/shutils/changelog.Debian.gz
+c6e6842834892a85e6de6c997c95c01e  $HOME/bin/shutils/dr.sh
+2f0bceed2e36fbc355f88c5850980723  $HOME/bin/shutils/gen.sh
+818074be802385d0d5f5e604c56a497f  $HOME/bin/shutils/git.sh
+7da59c5e062f80000612cedf4c0949f8  $HOME/bin/shutils/kube.sh
+bcd6a9716f0371248a921ff8a3dab517  $HOME/bin/shutils/loadvars.sh
+c6e6842834892a85e6de6c997c95c01e  $HOME/usr/bin/shutils/dr.sh
+2f0bceed2e36fbc355f88c5850980723  $HOME/usr/bin/shutils/gen.sh
+818074be802385d0d5f5e604c56a497f  $HOME/usr/bin/shutils/git.sh
+7da59c5e062f80000612cedf4c0949f8  $HOME/usr/bin/shutils/kube.sh
+bcd6a9716f0371248a921ff8a3dab517  $HOME/usr/bin/shutils/loadvars.sh
+1d9a42650e9deac6a6642379e98cfe42  usr/share/doc/shutils/README.Debian
+06d9c5f1089849d6b6c7245e358be05c  usr/share/doc/shutils/changelog.Debian.gz
 3c64d07f1a73bb37daa4bd85a317efb7  usr/share/doc/shutils/copyright
