@@ -66,11 +66,21 @@ W: shutils source: dh-make-template-in-source debian/salsa-ci.yml.ex
 W: shutils source: dh-make-template-in-source debian/shutils.cron.d.ex
 W: shutils source: dh-make-template-in-source debian/shutils.doc-base.EX
 W: shutils source: dh-make-template-in-source debian/watch.ex
-W: shutils: executable-not-elf-or-script bin/shutils/dr.sh
-W: shutils: executable-not-elf-or-script bin/shutils/gen.sh
-W: shutils: executable-not-elf-or-script bin/shutils/git.sh
-W: shutils: executable-not-elf-or-script bin/shutils/kube.sh
-W: shutils: executable-not-elf-or-script bin/shutils/loadvars.sh
+W: shutils: executable-not-elf-or-script bin/shutils/dockerhubp.sh
+W: shutils: executable-not-elf-or-script bin/shutils/ffirst.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitcommit.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/kp.sh
+W: shutils: executable-not-elf-or-script bin/shutils/loadjson.sh
+W: shutils: executable-not-elf-or-script bin/shutils/myinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/podel.sh
+W: shutils: executable-not-elf-or-script bin/shutils/podget.sh
+W: shutils: executable-not-elf-or-script bin/shutils/podlog.sh
+W: shutils: executable-not-elf-or-script bin/shutils/podvalidname.sh
+W: shutils: executable-not-elf-or-script bin/shutils/psa.sh
+W: shutils: executable-not-elf-or-script bin/shutils/shutils.sh
+W: shutils: executable-not-elf-or-script bin/shutils/ssd.sh
+W: shutils: executable-not-elf-or-script bin/shutils/whoisport.sh
 W: shutils source: maintainer-script-lacks-debhelper-token debian/postinst
 W: shutils source: maintainer-script-lacks-debhelper-token debian/preinst
 W: shutils: new-package-should-close-itp-bug

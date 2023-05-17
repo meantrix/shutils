@@ -6,7 +6,7 @@
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-function source_json_as_environ() {
+function loadjson() {
   eval "$(jq -r '
   def replace_dot:
     . | gsub("\\."; "_");
