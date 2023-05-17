@@ -12,7 +12,7 @@
 # Returns:
 #   0 if image was created, non-zero on error.
 #######################################
-dhubp () {
+sh_dhubp () {
     
 if [ "$#" < "5" ]; then
     echo "Illegal number of parameters" >&2
@@ -45,7 +45,7 @@ return 0
 # Returns:
 #   0 if image was created, non-zero on error.
 #######################################
-function whoisport (){
+sh_whoisport () {
         port=$1
         pidInfo=$(fuser $port/tcp 2> /dev/null)
         pid=$(echo $pidInfo | cut -d':' -f2)

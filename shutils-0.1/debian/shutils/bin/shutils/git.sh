@@ -9,7 +9,7 @@
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-function git_info () {
+sh_ginfo () {
 
   local user="$1"
   local day="$2"
@@ -42,7 +42,7 @@ function git_info () {
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-function commit2 {
+sh_commit () {
 
         if [ $# -eq 0 ]; then
             echo "Please enter a commit message:";

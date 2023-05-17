@@ -1,12 +1,12 @@
 echo "Looking for old version of shutils..."
 
-if [ -f bin/shutils]
+if [ -f bin/shutils ]
 then
     sudo rm -f bin/shutils
     echo "Removed old shutils from ~/bin..."
 fi
 
-if [ -f usr/share/shutils] 
+if [ -f usr/share/shutils ] 
 then
     sudo rm -f usr/share/shutils
     echo "Removed old shutils from /usr/local/bin..."

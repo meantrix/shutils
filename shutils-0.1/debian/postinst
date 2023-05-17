@@ -1,28 +1,28 @@
 #!/bin/bash
 
 set -e
+set -x
 
-if [ "$1" = "configure" ] ; then
-    . usr/share/shutils/kube.sh
-    export -f sh_delpod
-    export -f sh_pod_log
-    export -f sh_pod_get
-    export -f sh_pod_valid_name
-    
-    . usr/share/shutils/dr.sh
-    export -f sh_dhubp
-    export -f sh_whoisport
+# loading functions
+. /usr/share/shutils/kube.sh
+. /usr/share/shutils/dr.sh
+. /usr/share/shutils/gen.sh
+. /usr/share/shutils/git.sh
 
-    . usr/share/shutils/gen.sh
-    export -f sh_minfo
-    export -f sh_kp
-    export -f sh_psa
-    export -f sh_ssd
-    export -f sh_ffirst
+# export functions to bash
+export -f sh_delpod
+export -f sh_pod_log
+export -f sh_pod_get
+export -f sh_pod_valid_name
+export -f sh_dhubp
+export -f sh_whoisport
+export -f sh_minfo
+export -f sh_kp
+export -f sh_psa
+export -f sh_ssd
+export -f sh_ffirst
+export -f sh_ginfo
+export -f sh_commit
 
-    . usr/share/shutils/git.sh
-    export -f sh_ginfo
-    export -f sh_commit
-
-    
-fi
+# Configuração concluída
+echo "Configuração das funções concluída."
