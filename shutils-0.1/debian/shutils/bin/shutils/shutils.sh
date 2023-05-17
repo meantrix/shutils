@@ -4,64 +4,20 @@ shutils() {
     shift
 
     case "$func" in
-        delpod)
-            . /usr/share/shutils/dockerhubp.sh
-            dockerhubp "$@"
-            ;;
-        ffirst)
-            . /usr/share/shutils/ffirst.sh
-            ffirst "$@"
-            ;;
-        gitcommit)
-            . /usr/share/shutils/gitcommit.sh
-            gitcommit "$@"
-            ;;
-        gitinfo)
-            . /usr/share/shutils/gitinfo.sh
-            gitinfo "$@"
-            ;;
-        kp)
-            . /usr/share/shutils/kp.sh
-            kp "$@"
-            ;;
-        loadjson)
-            . /usr/share/shutils/loadjson.sh
-            loadjson "$@"
-            ;;
-        myinfo)
-            . /usr/share/shutils/myinfo.sh
-            myinfo "$@"
-            ;;
-        podel)
-            . /usr/share/shutils/podel.sh
-            podel "$@"
-            ;;
-        podget)
-            . /usr/share/shutils/podget.sh
-            podget "$@"
-            ;;
-        podlog)
-            . /usr/share/shutils/podlog.sh
-            podlog "$@"
-            ;;
-        podvalidname)
-            . /usr/share/shutils/podvalidname.sh
-            podvalidname "$@"
-            ;;
-        psa)
-            . /usr/share/shutils/psa.sh
-            psa "$@"
-            ;;
-        ssd)
-            . /usr/share/shutils/ssd.sh
-            ssd "$@"
-            ;;
-        whoisport)
-            . /usr/share/shutils/whoisport.sh
-            whoisport "$@"
+        delpod|ffirst|gitcommit|gitinfo|kp|loadjson|myinfo|podel|podget|podlog|podvalidname|psa|ssd|whoisport|version)
+            if [ -x "/bin/shutils/$func.sh" ]; then
+                "/bin/shutils/$func.sh" "$@"
+            else
+                echo "Invalid method: $func"
+                echo "Available methods:"
+                echo "delpod, ffirst, gitcommit, gitinfo, kp, loadjson, myinfo, podel, podget, podlog, podvalidname, psa, ssd, whoisport, version"
+                exit 1
+            fi
             ;;
         *)
-            echo "Função inválida"
+            echo "Invalid function: $func"
+            echo "Available methods:"
+            echo "delpod, ffirst, gitcommit, gitinfo, kp, loadjson, myinfo, podel, podget, podlog, podvalidname, psa, ssd, whoisport, version"
             exit 1
             ;;
     esac

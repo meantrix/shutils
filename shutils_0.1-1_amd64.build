@@ -80,6 +80,7 @@ W: shutils: executable-not-elf-or-script bin/shutils/podvalidname.sh
 W: shutils: executable-not-elf-or-script bin/shutils/psa.sh
 W: shutils: executable-not-elf-or-script bin/shutils/shutils.sh
 W: shutils: executable-not-elf-or-script bin/shutils/ssd.sh
+W: shutils: executable-not-elf-or-script bin/shutils/version.sh
 W: shutils: executable-not-elf-or-script bin/shutils/whoisport.sh
 W: shutils source: maintainer-script-lacks-debhelper-token debian/postinst
 W: shutils source: maintainer-script-lacks-debhelper-token debian/preinst

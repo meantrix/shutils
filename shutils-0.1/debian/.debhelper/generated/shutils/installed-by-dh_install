@@ -12,6 +12,7 @@
 ./psa.sh
 ./shutils.sh
 ./ssd.sh
+./version.sh
 ./whoisport.sh
 ./dockerhubp.sh
 ./ffirst.sh
@@ -27,4 +28,5 @@
 ./psa.sh
 ./shutils.sh
 ./ssd.sh
+./version.sh
 ./whoisport.sh
