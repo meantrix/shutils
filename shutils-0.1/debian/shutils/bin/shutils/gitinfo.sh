@@ -1,4 +1,4 @@
-# Docker usefull function
+# Git usefull function
 
 #######################################
 # Get user git commits history by time range

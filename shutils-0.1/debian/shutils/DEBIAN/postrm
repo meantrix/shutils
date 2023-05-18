@@ -1,0 +1,25 @@
+#!/bin/bash
+
+set -e
+set -x
+
+case "$1" in
+    remove|upgrade|failed-upgrade|disappear)
+        # Remove as configurações relacionadas ao shutils do arquivo /etc/bash.bashrc
+        sed -i '/\. \/etc\/profile\.d\/shutils\.sh/d' /etc/bash.bashrc
+
+        # Remove o arquivo /etc/profile.d/shutils.sh
+        rm -f /etc/profile.d/shutils.sh
+
+        # Remove os diretórios /usr/share/shutils e /bin/shutils se eles existirem
+        if [ -d "/usr/share/shutils" ]; then
+            rm -rf "/usr/share/shutils"
+        fi
+
+        if [ -d "/bin/shutils" ]; then
+            rm -rf "/bin/shutils"
+        fi
+        ;;
+esac
+
+exit 0

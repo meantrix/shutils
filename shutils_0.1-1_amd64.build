@@ -69,6 +69,7 @@ W: shutils source: dh-make-template-in-source debian/watch.ex
 W: shutils: executable-not-elf-or-script bin/shutils/dockerhubp.sh
 W: shutils: executable-not-elf-or-script bin/shutils/ffirst.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitcommit.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitinfall.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitinfo.sh
 W: shutils: executable-not-elf-or-script bin/shutils/kp.sh
 W: shutils: executable-not-elf-or-script bin/shutils/loadjson.sh
@@ -83,6 +84,7 @@ W: shutils: executable-not-elf-or-script bin/shutils/ssd.sh
 W: shutils: executable-not-elf-or-script bin/shutils/version.sh
 W: shutils: executable-not-elf-or-script bin/shutils/whoisport.sh
 W: shutils source: maintainer-script-lacks-debhelper-token debian/postinst
+W: shutils source: maintainer-script-lacks-debhelper-token debian/postrm
 W: shutils source: maintainer-script-lacks-debhelper-token debian/preinst
 W: shutils: new-package-should-close-itp-bug
 W: shutils: readme-debian-contains-debmake-template

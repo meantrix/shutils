@@ -4,7 +4,7 @@ set -e
 set -x
 
 # loading functions
-. /usr/share/shutils/shutils.sh
+. /bin/shutils/shutils.sh
 
 # export functions to bash
 echo '. /bin/shutils/shutils.sh' > /etc/profile.d/shutils.sh
