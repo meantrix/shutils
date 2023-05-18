@@ -7,7 +7,7 @@ set -x
 . /usr/share/shutils/shutils.sh
 
 # export functions to bash
-echo '. /usr/share/shutils/shutils.sh' > /etc/profile.d/shutils.sh
+echo '. /bin/shutils/shutils.sh' > /etc/profile.d/shutils.sh
 
 # Add shutils to bash.bashrc if not already present
 if ! grep -q '/etc/profile.d/shutils.sh' /etc/bash.bashrc; then
@@ -16,9 +16,3 @@ fi
 
 # Configuração concluída
 echo "Shutils install end."
-
-# Remove shutils from bash.bashrc on package removal
-if [ "$1" = "remove" ]; then
-    sed -i '/\. \/etc\/profile\.d\/shutils\.sh/d' /etc/bash.bashrc
-    rm -f /etc/profile.d/shutils.sh
-fi

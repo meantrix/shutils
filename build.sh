@@ -17,7 +17,9 @@ dh_make --indep --createorig
 cp ../install debian/install
 cp ../preinst debian/preinst
 cp ../postinst debian/postinst
+cp ../postrm debian/postrm
 
 debuild -us -uc
 
+sudo apt remove shutils
 sudo dpkg -i ../shutils_0.1-1_all.deb
