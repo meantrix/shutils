@@ -6,7 +6,7 @@
 # Returns:
 #   directory path
 #######################################
-ffirst () {
+filefirst () {
 
   if [ "$#" -eq 1 ]
   then
