@@ -15,6 +15,6 @@ fc297af9395ad167bfb75e8ce5e2d8c1  bin/shutils/podvalidname.sh
 054772ddc6b0e1c7518abaf87db81bd7  bin/shutils/ssd.sh
 80afe85e804a96a148278c0c2028430e  bin/shutils/version.sh
 40be59de6d205d06232ff08bad4f3969  bin/shutils/whoisport.sh
-baf95902150ea844d048efbcea22457b  usr/share/doc/shutils/README.Debian
-c8831f3ae18d65eb2780f855dc986330  usr/share/doc/shutils/changelog.Debian.gz
+bd8d0c807226f18ea2c28f7d16c59ae6  usr/share/doc/shutils/README.Debian
+dad24e832ba3a688ed5a38efe9ff9054  usr/share/doc/shutils/changelog.Debian.gz
 3c64d07f1a73bb37daa4bd85a317efb7  usr/share/doc/shutils/copyright

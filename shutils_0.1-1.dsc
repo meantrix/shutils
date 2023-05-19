@@ -4,17 +4,17 @@ Binary: shutils
 Architecture: all
 Version: 0.1-1
 Maintainer: Igor Siciliani <dev@meantrix.com>
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/meantrix
 Standards-Version: 4.4.1
 Build-Depends: debhelper-compat (= 12)
 Package-List:
  shutils deb unknown optional arch=all
 Checksums-Sha1:
- 63c448defcc276450d847138d68c89a08434212f 3740 shutils_0.1.orig.tar.xz
- a5032b185ac302c491f6a6ac7cdbd47724678780 8344 shutils_0.1-1.debian.tar.xz
+ 7a06be0656d71cabd334a8fb1eb7b0e1694e5ce3 3744 shutils_0.1.orig.tar.xz
+ f7704c87ddbaacdfc5ac868574c7ffd30ad2d6d9 8304 shutils_0.1-1.debian.tar.xz
 Checksums-Sha256:
- b7b31cf48c478d4a9bae969e6c8b3188ce165f47420e1388153bc2dce313f5d8 3740 shutils_0.1.orig.tar.xz
- 3cb97826ee5c2bc3bfbb1f87e774f49e1d909e08ed56f66364d3d296e6a10794 8344 shutils_0.1-1.debian.tar.xz
+ a0bffad954877681999c182a22df02b1c4c379f72619ffb0677454f0f79b8976 3744 shutils_0.1.orig.tar.xz
+ e3e20d75acd0d8cf7f8fb21d9505631e69d22f0deeb2134a756bcfeede54dbb4 8304 shutils_0.1-1.debian.tar.xz
 Files:
- a7e7009067cdc840e93af2835683970c 3740 shutils_0.1.orig.tar.xz
- 3bbf988723def42ac034af411f3d1d7f 8344 shutils_0.1-1.debian.tar.xz
+ f54d70b0e7e23892749baef9f6629b69 3744 shutils_0.1.orig.tar.xz
+ f8787bf898a0ad334db536f67f497754 8304 shutils_0.1-1.debian.tar.xz

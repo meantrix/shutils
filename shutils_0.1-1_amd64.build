@@ -46,15 +46,14 @@ E: shutils changes: bad-distribution-in-changes-file unstable
 E: shutils: changelog-is-dh_make-template
 E: shutils: copyright-contains-dh_make-todo-boilerplate
 E: shutils source: debian-rules-is-dh_make-template
-E: shutils: description-is-dh_make-template
+E: shutils: extended-description-is-empty
 E: shutils: helper-templates-in-copyright
 E: shutils source: readme-source-is-dh_make-template
 E: shutils: script-without-interpreter control/preinst
 E: shutils: section-is-dh_make-template
 E: shutils: subdir-in-bin bin/shutils/
-W: shutils source: bad-homepage <insert the upstream URL, if relevant>
-W: shutils: bad-homepage <insert the upstream URL, if relevant>
 W: shutils: copyright-has-url-from-dh_make-boilerplate
+W: shutils source: debhelper-but-no-misc-depends shutils
 W: shutils source: dh-make-template-in-source debian/manpage.1.ex
 W: shutils source: dh-make-template-in-source debian/manpage.sgml.ex
 W: shutils source: dh-make-template-in-source debian/manpage.xml.ex
@@ -89,7 +88,5 @@ W: shutils source: maintainer-script-lacks-debhelper-token debian/preinst
 W: shutils: new-package-should-close-itp-bug
 W: shutils: readme-debian-contains-debmake-template
 W: shutils source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 6)
-W: shutils source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
-W: shutils: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
 W: shutils: wrong-bug-number-in-closes l3:#nnnn
 Finished running lintian.

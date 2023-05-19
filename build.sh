@@ -20,6 +20,8 @@ cp ../install debian/install
 cp ../preinst debian/preinst
 cp ../postinst debian/postinst
 cp ../postrm debian/postrm
+cp ../control debian/control
+
 
 debuild -us -uc
 
