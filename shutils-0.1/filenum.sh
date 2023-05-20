@@ -5,7 +5,7 @@
 # Returns:
 #   number of files
 #######################################
-filnum() { 
+filenum() { 
     N="$(ls $1 | wc -l)"; 
     echo "$N files in $1";
     return $N

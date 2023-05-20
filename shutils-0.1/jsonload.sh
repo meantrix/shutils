@@ -6,7 +6,7 @@
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-function loadjson() {
+function jsonload() {
   eval "$(jq -r '
   def replace_dot:
     . | gsub("\\."; "_");

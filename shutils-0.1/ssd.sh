@@ -3,10 +3,8 @@
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-ssd () {
+ssd() {
   echo "Device         Total  Used  Free  Pct MntPoint"
-  df -h | grep "/dev/sd"
-  df -h | grep "/mnt/"
-
-  return 0 
+  df -h | awk '/\/dev\/sd/ || /\/mnt\// {print $1, $2, $3, $4, $5, $6}'
+  return 0
 }

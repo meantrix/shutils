@@ -3,7 +3,6 @@
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-
 azcopy10inst() {
     wget -O azcopy\_v7.tar.gz https://aka.ms/downloadazcopylinux64
     mkdir azcopy\_v7

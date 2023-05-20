@@ -45,8 +45,7 @@ gitinfall() {
   else
     # Multiple Git repositories case
     cd "$folder"
-    allrepos=$(find "$folder" -name ".git" -type d -prune | while read -r gitdir; do cd "$gitdir/.." && pwd; done)
-
+    allrepos=$(find "$folder" -name ".git" -type d -prune | while read -r gitdir; do (cd "$gitdir/.." && pwd); done)
 
     for repo in $allrepos; do
         (cd "$repo" && echo "Repository: $repo")
