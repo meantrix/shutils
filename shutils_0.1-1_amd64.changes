@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Mon, 22 May 2023 11:31:49 -0300
+Date: Mon, 22 May 2023 11:59:37 -0300
 Source: shutils
 Binary: shutils
 Architecture: source all
@@ -15,20 +15,20 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- d72cd67c2586eff836f3eb5c61ea3d7efce8f237 797 shutils_0.1-1.dsc
- d216e8f6f835cec0777081edd8b2ed63a64154ab 5008 shutils_0.1.orig.tar.xz
- 58de6dd2635006be02c9c0297ae0db4bfacbfd71 8308 shutils_0.1-1.debian.tar.xz
- 08375d2e566f0e61edbfcd7d3037b8c01d5bbc10 8300 shutils_0.1-1_all.deb
- ee002c8a7fc81a521adae325abbfa6c641cf54ae 5653 shutils_0.1-1_amd64.buildinfo
+ 4eb25977f5dac3af88e40ccd35b1e64fbf02ed86 797 shutils_0.1-1.dsc
+ bd0ec516028d5c5a1e09384b21ed5547fafe08a3 5004 shutils_0.1.orig.tar.xz
+ 990f1ea85cb039d6dd92cd0d849e41ad6e268964 8308 shutils_0.1-1.debian.tar.xz
+ e42947d797441f95705ad07534bc1b841986e6c5 8312 shutils_0.1-1_all.deb
+ 29f2ed1f62b7152bf93b82a6aee7fd3ea6a7bd81 5653 shutils_0.1-1_amd64.buildinfo
 Checksums-Sha256:
- 65fa777c36f7fffc221e2ceafb4c3f9bd7d85867bb6305c3beb7608303b49efa 797 shutils_0.1-1.dsc
- 060a88fdb3239cf05616bef9c55c46347dbfcf65400aa63e14b842fc518536b1 5008 shutils_0.1.orig.tar.xz
- c18b4520f7987d3a5f7a470d123fc5456e77308922e662277a1ed53e3f8b9c73 8308 shutils_0.1-1.debian.tar.xz
- 23a648b83de9e446706065b3e5dac954caf77caed9eb2794b6f1f14a6e229acb 8300 shutils_0.1-1_all.deb
- 88bb7539397d05b8a936c74c2893959eebce685fcf064ac0c9988a729a70c5a1 5653 shutils_0.1-1_amd64.buildinfo
+ e94d1062dc38171e3eff13c30edb866f57e23e5b369fabf145b5d738a349e7f4 797 shutils_0.1-1.dsc
+ 149361284fa5f1b4cbd14463800d523a67041f760a093120921bc2aeb13463b6 5004 shutils_0.1.orig.tar.xz
+ 6c10639a7f7e316d73d7cc6f18a428d643ddcf537f9379230e4ccabe28764e58 8308 shutils_0.1-1.debian.tar.xz
+ 7465d7d363864b5f4438734b89d262964eb6f36d6d93d4072de0c353a8d7c78b 8312 shutils_0.1-1_all.deb
+ 584986d58de97bf956f09d77a2c6b08c09e0eafa8c24c909fa860de193b3a4b4 5653 shutils_0.1-1_amd64.buildinfo
 Files:
- 6846f4e0799fee1e39d021630400232d 797 unknown optional shutils_0.1-1.dsc
- c63a1811150967243cc51753db5d9651 5008 unknown optional shutils_0.1.orig.tar.xz
- 207fed1c54095eace456f60d6dce417d 8308 unknown optional shutils_0.1-1.debian.tar.xz
- e3de9c8ab1f6cdc7a95443826b58833b 8300 unknown optional shutils_0.1-1_all.deb
- 3c09b10f5a447911eaa4a012703e542f 5653 unknown optional shutils_0.1-1_amd64.buildinfo
+ deec3d288ee4cbb2819f44bb18ee8720 797 unknown optional shutils_0.1-1.dsc
+ e9e159add8af4fddd4c2bb4fae03c032 5004 unknown optional shutils_0.1.orig.tar.xz
+ d3910c356a5504c0eb3ee83cafa797f2 8308 unknown optional shutils_0.1-1.debian.tar.xz
+ 373b0dc71b6a33d46492f1971d1e0c03 8312 unknown optional shutils_0.1-1_all.deb
+ 898f908063e42b0c6839ef217b317e8e 5653 unknown optional shutils_0.1-1_amd64.buildinfo

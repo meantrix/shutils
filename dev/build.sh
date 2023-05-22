@@ -16,11 +16,11 @@ cd shutils-0.1/
 rm -rf debian/
 dh_make --indep --createorig
 # Create the debian/install and preinst files
-cp ../install debian/install
-cp ../preinst debian/preinst
-cp ../postinst debian/postinst
-cp ../postrm debian/postrm
-cp ../control debian/control
+cp ../dev/install debian/install
+cp ../dev/preinst debian/preinst
+cp ../dev/postinst debian/postinst
+cp ../dev/postrm debian/postrm
+cp ../dev/control debian/control
 
 
 debuild -us -uc

@@ -1,5 +1,5 @@
 #######################################
-# load variables from .sjon file
+# load variables from .json file
 # Arguments:
 #   file : path to json file.
 #

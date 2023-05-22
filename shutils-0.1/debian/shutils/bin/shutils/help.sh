@@ -19,7 +19,8 @@ help () {
     else
         echo "Use: shutils help $func"
         echo
-        echo "Description: $doc"
+        echo "Description:"
+        echo "$doc"
         echo
         echo "Option:"
         echo "help."
