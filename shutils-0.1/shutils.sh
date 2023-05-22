@@ -11,11 +11,9 @@ shutils() {
     shift
 
     case "$func" in
-        azcopy10inst|dockerhubp|filefirst|filecompress|filenum|filextract|gitcommit|gitinfo|gitinfall|kp|jsonload|myinfo|netinfo|netmyip|podel|podget|podlog|podvalidname|psa|ssd|whoisport|version)
+        azcopy10inst|dockerhubp|filefirst|filecompress|filenum|filextract|gitcommit|gitinfo|gitinfall|kp|jsonload|myinfo|netinfo|netmyip|podel|podget|podlog|podvalidname|psa|ssd|whoisport|--version|--help)
             if [ -x "/bin/shutils/$func.sh" ]; then
                 source "/bin/shutils/$func.sh"
-                
-                
                 $func "${@:2}"
             else
                 echo "Invalid method: $func"
