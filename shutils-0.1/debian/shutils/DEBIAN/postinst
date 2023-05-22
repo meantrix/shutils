@@ -4,25 +4,15 @@ set -e
 set -x
 
 # loading functions
-. /usr/share/shutils/kube.sh
-. /usr/share/shutils/dr.sh
-. /usr/share/shutils/gen.sh
-. /usr/share/shutils/git.sh
+. /bin/shutils/shutils.sh
 
 # export functions to bash
-export -f sh_delpod
-export -f sh_pod_log
-export -f sh_pod_get
-export -f sh_pod_valid_name
-export -f sh_dhubp
-export -f sh_whoisport
-export -f sh_minfo
-export -f sh_kp
-export -f sh_psa
-export -f sh_ssd
-export -f sh_ffirst
-export -f sh_ginfo
-export -f sh_commit
+echo '. /bin/shutils/shutils.sh' > /etc/profile.d/shutils.sh
+
+# Add shutils to bash.bashrc if not already present
+if ! grep -q '/etc/profile.d/shutils.sh' /etc/bash.bashrc; then
+    echo ". /etc/profile.d/shutils.sh" >> /etc/bash.bashrc
+fi
 
 # Configuração concluída
-echo "Configuração das funções concluída."
+echo "Shutils install end."

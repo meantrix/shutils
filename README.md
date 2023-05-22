@@ -1,47 +1,92 @@
 # Shutils
 
 
-![logo](https://github.com/meantrix/graphicalresources/blob/master/logo-meantrix/header_transparente_colorido.png)
+![logo](logo-meantrix/header.png)
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
-[![version](https://img.shields.io/badge/version-0.0.0-green.svg)](https://semver.org)
+[![version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://semver.org)
 
 
-Bash usefull functions 
+Collection of useful bash functions
+
+## Methods
+
+* azcopy10inst
+* dockerhubp
+* filefirst
+* filecompress
+* filenum
+* filextract
+* gitcommit
+* gitinfo
+* gitinfall
+* kp
+* jsonload
+* myinfo
+* netinfo
+* netmyip
+* podel
+* podget
+* podlog
+* podvalidname
+* psa
+* ssd
+* whoisport
+* version
+* help
 
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
+* You have a `<Linux/>` machine. State which OS is supported/which is not.
+* You have a installed `git`, and `kubectl` OS packages.
 * You have read `<guide/link/documentation_related_to_project>`.
 
-## Installing <project_name>
+## Installing <shutils>
 
-To install <project_name>, follow these steps:
+To install <shutils>, follow these steps:
 
 Linux and macOS:
-```
-<install_command>
+
+```bash
+dpkg -i shutils_*.deb
 ```
 
-Windows:
-```
-<install_command>
-```
-## Using <project_name>
+## Using <shutils>
 
-To use <project_name>, follow these steps:
+To use <shutils>, follow these steps:
+
+```bash
+$ shutils version
+#shutils (0.0.1) unstable; urgency=medium
+
+$ shutils netmyip
+#  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+#                                 Dload  Upload   Total   Spent    Left  Speed
+#100    12  100    12    0     0     53      0 --:--:-- --:--:-- --:--:--    54
+#XXXXXXXXXXXXX
+
+
+$ shutils help podel
+#Use: shutils help podel
+
+#Description: #######################################
+# Delete a pod by name pattern
+# Arguments:
+#   podname : podname pattern
+#   mynamespace : namespace(default)
+#
+# Returns:
+#   0 if pod was delete, non-zero on error.
+#######################################
+
+#Option:
+#help.
 
 ```
-<usage_example>
-```
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
-
 ## Contributing to <project_name>
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
 To contribute to <project_name>, follow these steps:
@@ -65,7 +110,6 @@ Thanks to the following people who have contributed to this project:
 If you want to contact me you can reach me at <contato@meantrix.com>.
 
 ## License
-<!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This project uses the following license: [<license_name>](<link>).
+This project uses the following license: [MIT](LICENSE.md).
 

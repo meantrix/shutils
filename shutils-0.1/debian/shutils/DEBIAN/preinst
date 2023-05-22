@@ -1,13 +1,16 @@
 echo "Looking for old version of shutils..."
 
-if [ -f bin/shutils ]
+if [ -f /etc/profile.d/shutils.sh ]
 then
-    sudo rm -f bin/shutils
-    echo "Removed old shutils from ~/bin..."
+    sudo rm -f /etc/profile.d/shutils.sh
+    echo "Removed old shutils from /etc/profile.d..."
 fi
 
-if [ -f usr/share/shutils ] 
+if [ -d /bin/shutils ]
 then
-    sudo rm -f usr/share/shutils
-    echo "Removed old shutils from /usr/local/bin..."
+    sudo rm -rf /bin/shutils
+    echo "Removed old shutils from /bin..."
 fi
+
+sed -i '/\. \/etc\/profile\.d\/shutils\.sh/d' /etc/bash.bashrc
+
