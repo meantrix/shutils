@@ -1,4 +1,4 @@
-######################################
+#######################################
 # Get full pod name by pattern
 # Arguments:
 #   podname : podname pattern

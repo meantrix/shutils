@@ -2,7 +2,7 @@ Package: shutils
 Version: 0.1-1
 Architecture: all
 Maintainer: Igor Siciliani <dev@meantrix.com>
-Installed-Size: 34
+Installed-Size: 43
 Depends: git
 Section: unknown
 Priority: optional

@@ -65,14 +65,22 @@ W: shutils source: dh-make-template-in-source debian/salsa-ci.yml.ex
 W: shutils source: dh-make-template-in-source debian/shutils.cron.d.ex
 W: shutils source: dh-make-template-in-source debian/shutils.doc-base.EX
 W: shutils source: dh-make-template-in-source debian/watch.ex
+W: shutils: executable-not-elf-or-script bin/shutils/azcopy10inst.sh
 W: shutils: executable-not-elf-or-script bin/shutils/dockerhubp.sh
-W: shutils: executable-not-elf-or-script bin/shutils/ffirst.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filebu.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filecompress.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filefirst.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filenum.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filextract.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitcommit.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitinfall.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/help.sh
+W: shutils: executable-not-elf-or-script bin/shutils/jsonload.sh
 W: shutils: executable-not-elf-or-script bin/shutils/kp.sh
-W: shutils: executable-not-elf-or-script bin/shutils/loadjson.sh
 W: shutils: executable-not-elf-or-script bin/shutils/myinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/netinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/netmyip.sh
 W: shutils: executable-not-elf-or-script bin/shutils/podel.sh
 W: shutils: executable-not-elf-or-script bin/shutils/podget.sh
 W: shutils: executable-not-elf-or-script bin/shutils/podlog.sh

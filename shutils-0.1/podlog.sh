@@ -1,4 +1,4 @@
-######################################
+#######################################
 # Get log from pod by name pattern
 # Arguments:
 #   podname : podname pattern

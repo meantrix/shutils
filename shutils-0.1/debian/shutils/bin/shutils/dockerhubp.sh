@@ -1,5 +1,3 @@
-# Docker usefull function
-
 #######################################
 # Build and pull image to dockerhub.
 # Arguments:
