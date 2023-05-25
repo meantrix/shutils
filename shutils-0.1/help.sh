@@ -15,7 +15,7 @@ help () {
     if [ -z "$doc" ]; then
         echo "help: Invalid function: $1"
         echo "Available methods:"
-        echo "azcopy10inst|dockerhubp|filefirst|filecompress|filenum|filextract|gitcommit|gitinfo|gitinfall|kp|jsonload|myinfo|netinfo|netmyip|podel|podget|podlog|podvalidname|psa|ssd|whoisport|version|help"
+        echo "azcopy10inst|dockerhubp|filefirst|filecompress|filenum|filextract|filelarlist|gitcommit|gitinfo|gitinfall|kp|jsonload|myinfo|netinfo|netmyip|podel|podget|podlog|podvalidname|psa|ssd|whoisport|version|help"
     else
         echo "Use: shutils help $func"
         echo

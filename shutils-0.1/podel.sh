@@ -1,5 +1,3 @@
-# Docker usefull function
-
 #######################################
 # Delete a pod by name pattern
 # Arguments:

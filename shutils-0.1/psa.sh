@@ -1,5 +1,5 @@
 #######################################
-# Another quick function to shorten something like this: ps aux | grep PROCESS_NAME. (Usage: psa NAME)
+# List processes with a specified pattern name
 # Arguments:
 #   NAME : process name
 # Returns:
