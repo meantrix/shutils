@@ -11,7 +11,7 @@ shutils() {
     shift
 
 
-    local funcs="(azcopy10inst|dockerhubp|filefirst|filecompress|filenum|filextract|filelarlist|gitcommit|gitinfo|gitinfall|kp|jsonload|myinfo|netinfo|netmyip|podel|podget|podlog|podvalidname|podres|psa|ssd|whoisport|version|help)"
+    local funcs="(azcopy10inst|dockerhubp|filefirst|filecompress|filenum|filextract|filelarlist|gitcommit|gitinfo|gitinfall|kp|jsonload|myinfo|netinfo|netmyip|podel|podget|podlog|podvalidname|podres|psa|ssd|whoisport|nviuse|version|help)"
 
     case "$func" in
         $funcs)
