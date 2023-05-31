@@ -1,8 +1,15 @@
+## 0.0.2
+
+### Methods
+
+* filelarlist
+* nviuse
+* podres
 ## 0.0.1
 
 first version of the package to be used in cloud process automation
 
-## Methods
+### Methods
 
 * azcopy10inst
 * dockerhubp
