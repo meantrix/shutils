@@ -10,11 +10,11 @@ Build-Depends: debhelper-compat (= 12)
 Package-List:
  shutils deb unknown optional arch=all
 Checksums-Sha1:
- 327f46081fbfd91ad4947ab975d66c80f604a879 6008 shutils_0.2.orig.tar.xz
- 26e80fcf9085eb47324ced42de930ca84eff542e 8304 shutils_0.2-1.debian.tar.xz
+ b67347643c68a93bce835de8d00ade5b6ff50ada 6004 shutils_0.2.orig.tar.xz
+ ba6554478e58105f6908c44925eadaf3bc13924b 8304 shutils_0.2-1.debian.tar.xz
 Checksums-Sha256:
- 13d51573d3a8b1b45fb328049fc85fcbd747e15212cc7c7723a92c5160300d68 6008 shutils_0.2.orig.tar.xz
- e47a0a0fa47ec723b9c9233f6ff7fddf0e705021ae14961b1475e450dee3e2db 8304 shutils_0.2-1.debian.tar.xz
+ cf45dba508e9a2973fef7ce36f4f1b0f358d7999653f1448dc099e6d13d3cbe2 6004 shutils_0.2.orig.tar.xz
+ 282c56d72bdce22ed05c9126987e49cfcc87897178e8091c90c884dfefad4e9b 8304 shutils_0.2-1.debian.tar.xz
 Files:
- dc4c5f9d15e88a101fdec828f06fb49e 6008 shutils_0.2.orig.tar.xz
- 39c15f5c753af14c3aa27c55d45c67ec 8304 shutils_0.2-1.debian.tar.xz
+ e5f2214d480a6718cdbefa02e14063b6 6004 shutils_0.2.orig.tar.xz
+ 7b81479e46fc99d509be9820437913af 8304 shutils_0.2-1.debian.tar.xz

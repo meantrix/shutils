@@ -20,13 +20,13 @@ eee208863d7f70a1bf6fde1f7de7b99a  bin/shutils/netmyip.sh
 6b825a41f17c9ca77683782042d94c63  bin/shutils/podel.sh
 7817bc351d2f0ceed359bbddc2a271a1  bin/shutils/podget.sh
 bcd975225c3723b578e19303f4b9dc5c  bin/shutils/podlog.sh
-bf3c34f613f4be9b6c59d9446b47764b  bin/shutils/podres.sh
+9306000d750eb6574f348d8480efe705  bin/shutils/podres.sh
 5145b06b381ee4c34edf9cd99655534b  bin/shutils/podvalidname.sh
 a695f00369a096cd747dd5335ff6257a  bin/shutils/psa.sh
 f782554e1a46d22c1dab450f8a4e3657  bin/shutils/shutils.sh
 879fe06f7640cfee1bd495f1576be480  bin/shutils/ssd.sh
 32505233fc4db670587a322fd9a01afc  bin/shutils/version.sh
 40be59de6d205d06232ff08bad4f3969  bin/shutils/whoisport.sh
-4d5a23ee14a02f6744116d4eb44262c0  usr/share/doc/shutils/README.Debian
-5f480af989cfc94b33e5a6ec33a80a67  usr/share/doc/shutils/changelog.Debian.gz
+1a02d5503158b0d04c8497fcc28d1f0d  usr/share/doc/shutils/README.Debian
+3c91ce7c02e52c246518bdb6485db924  usr/share/doc/shutils/changelog.Debian.gz
 3c64d07f1a73bb37daa4bd85a317efb7  usr/share/doc/shutils/copyright

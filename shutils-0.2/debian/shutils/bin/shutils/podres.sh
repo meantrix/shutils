@@ -7,7 +7,8 @@
 #   namespace (optional): The namespace to list pods from (default: 'default')
 # Returns:
 #   None
-#######################################podres() {
+#######################################
+podres() {
     local namespace="${1:-default}"
 
     # Verify if the namespace exists
@@ -40,6 +41,5 @@
         echo "Memory Usage: $mem_usage"
         echo "------------------------"
     done <<< "$pods"
-
 
 }
