@@ -12,6 +12,7 @@
 ./help.sh
 ./jsonload.sh
 ./kp.sh
+./list.sh
 ./myinfo.sh
 ./netinfo.sh
 ./netmyip.sh

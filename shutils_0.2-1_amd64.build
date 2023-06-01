@@ -79,6 +79,7 @@ W: shutils: executable-not-elf-or-script bin/shutils/gitinfo.sh
 W: shutils: executable-not-elf-or-script bin/shutils/help.sh
 W: shutils: executable-not-elf-or-script bin/shutils/jsonload.sh
 W: shutils: executable-not-elf-or-script bin/shutils/kp.sh
+W: shutils: executable-not-elf-or-script bin/shutils/list.sh
 W: shutils: executable-not-elf-or-script bin/shutils/myinfo.sh
 W: shutils: executable-not-elf-or-script bin/shutils/netinfo.sh
 W: shutils: executable-not-elf-or-script bin/shutils/netmyip.sh
