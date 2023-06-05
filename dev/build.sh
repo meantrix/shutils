@@ -22,7 +22,6 @@ cp ../dev/postinst debian/postinst
 cp ../dev/postrm debian/postrm
 cp ../dev/control debian/control
 
-
 debuild -us -uc
 
 sudo apt remove shutils

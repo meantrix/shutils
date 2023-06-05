@@ -10,6 +10,7 @@
 ./gitinfall.sh
 ./gitinfo.sh
 ./help.sh
+./instR3.sh
 ./jsonload.sh
 ./kp.sh
 ./list.sh

@@ -4,17 +4,17 @@ Binary: shutils
 Architecture: all source
 Version: 0.2-1
 Checksums-Md5:
- 3abee5c21652a04722d8ee1886a62a6e 797 shutils_0.2-1.dsc
- 74081430cef3ceef428533b9aa826b83 9396 shutils_0.2-1_all.deb
+ e794153e514f35001e340f03387a9487 797 shutils_0.2-1.dsc
+ ed19ddfcaba00e68751029c0bb7d0f78 9804 shutils_0.2-1_all.deb
 Checksums-Sha1:
- bbec0df72bb5f351191161de80c70ae101310ff4 797 shutils_0.2-1.dsc
- ee51ce547b24962e6ea4f89140f922b4fa0ef3a1 9396 shutils_0.2-1_all.deb
+ 397b58326be9057fae238e9a095256bd987f41b9 797 shutils_0.2-1.dsc
+ fbd4cd7085f553a9cd7c33587512cf7ee2895a17 9804 shutils_0.2-1_all.deb
 Checksums-Sha256:
- 48385e64bd858fc82512b4cd48a6c4aded61ca901a7f38898a6d6c368a756ce4 797 shutils_0.2-1.dsc
- b2c770054039b1fb21e83a86e01840e01e757d3400c90e92b22a5ebaaca1d9ae 9396 shutils_0.2-1_all.deb
+ bb25c03c51404ab152e0c68ee0ab842091f33f6814bfdf24b1a10a364f754a78 797 shutils_0.2-1.dsc
+ 45d729d76eb3ad183cd79d0ac1f6c2970c248b359d1dc08dcbaaf384ec9cf994 9804 shutils_0.2-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 01 Jun 2023 15:42:22 -0300
+Build-Date: Mon, 05 Jun 2023 16:23:34 -0300
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-includes
@@ -147,7 +147,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.34-0.1ubuntu9.3),
  libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.6),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-149.166),
+ linux-libc-dev (= 5.4.0-150.167),
  login (= 1:4.8.1-1ubuntu5.20.04.4),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
@@ -173,4 +173,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=16"
  LANG="pt_BR.UTF-8"
- SOURCE_DATE_EPOCH="1685644930"
+ SOURCE_DATE_EPOCH="1685992988"
