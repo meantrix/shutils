@@ -6,7 +6,7 @@
 * nviuse
 * podres
 * instR3
-
+* instT
 ## 0.0.1
 
 first version of the package to be used in cloud process automation
