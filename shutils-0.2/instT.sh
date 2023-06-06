@@ -1,3 +1,12 @@
+
+#######################################
+# install_terraform - Install Terraform on a Linux system
+# Arguments:
+#   [version]: The version of Terraform to install (e.g., 1.2.3)
+#   [architecture]: The architecture of the Linux system (e.g., linux_amd64)
+# Returns:
+#   0 if the Terraform installation is successful, 1 otherwise
+#######################################
 instT() {
     local version="${1:-1.2.3}"
     local architecture="${2:-linux_amd64}"
