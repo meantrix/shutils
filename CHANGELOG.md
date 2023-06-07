@@ -1,12 +1,16 @@
-## 0.0.2
+## 0.0.2 (04/06/23)
 
-### Methods
+### New Methods
 
-* filelarlist
-* nviuse
-* podres
-* instR3
-* instT
+* filelarlist : List the largest files in the computer or a specific directory ;
+* nviuse : Retrieves information about NVIDIA GPUs using the nvidia-smi command ;
+* podres : Lists the resource usage (CPU and Memory) of all pods in a given namespace ;
+* instR3 : Install R on Ubuntu ;
+* instT : Install Terraform on a Linux system ;
+* list : List available methods in shutils
+
+ - refact `shutils` main method ;
+
 ## 0.0.1
 
 first version of the package to be used in cloud process automation
