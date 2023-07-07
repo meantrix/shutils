@@ -18,6 +18,7 @@ Collection of useful bash functions
 * filecompress
 * filenum
 * filextract
+* filelarlist
 * gitcommit
 * gitinfo
 * gitinfall
@@ -30,11 +31,14 @@ Collection of useful bash functions
 * podget
 * podlog
 * podvalidname
+* podres
 * psa
 * ssd
 * whoisport
+* nviuse
 * version
 * help
+* list
 
 
 ## Prerequisites
