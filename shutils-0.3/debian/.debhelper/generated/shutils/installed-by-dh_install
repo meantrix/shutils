@@ -9,6 +9,7 @@
 ./gitcommit.sh
 ./gitinfall.sh
 ./gitinfo.sh
+./gitprinfo.sh
 ./help.sh
 ./instR3.sh
 ./instT.sh

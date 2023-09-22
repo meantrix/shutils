@@ -10,5 +10,5 @@ Homepage: https://github.com/meantrix
 
 Package: shutils
 Architecture: all
-Depends: git
+Depends: git, gh
 Description: Bash useful functions
