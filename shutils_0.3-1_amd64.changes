@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 22 Sep 2023 18:57:35 -0300
+Source: shutils
+Binary: shutils
+Architecture: source all
+Version: 0.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Igor Siciliani <dev@meantrix.com>
+Changed-By: Igor Siciliani <dev@meantrix.com>
+Description:
+ shutils    - Bash useful functions
+Changes:
+ shutils (0.3-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 95b89a457f464df3b1cc465c9da129f4a6e365c0 797 shutils_0.3-1.dsc
+ d1bb5639a7f5878a4e0f7dc6536271f09efed4a4 7168 shutils_0.3.orig.tar.xz
+ bbf6b354b9d5163b18466b1daac7c016424c095b 8304 shutils_0.3-1.debian.tar.xz
+ 006e788815720f9a055094886b2ac3773b1669b6 10632 shutils_0.3-1_all.deb
+ 36d96a3534737726750fdb8cba8f97fa8471e9bf 5697 shutils_0.3-1_amd64.buildinfo
+Checksums-Sha256:
+ a767062d592cc9d5c3e0b959e5ed6e2c2ac34fad4e92bbfac54319420cb0c059 797 shutils_0.3-1.dsc
+ 01dfbc150ebf588b070fcb7ef625849f76fa48d245253888a2c06f61e053c74c 7168 shutils_0.3.orig.tar.xz
+ 005fbe2f3446fd36d29d7caac6403c7f80fa64b6d3c324681978579d42bcf03f 8304 shutils_0.3-1.debian.tar.xz
+ dcd10780a2eb4a488340de7c07e39139ececac1b5fda37432cf9076fcd5f6ec6 10632 shutils_0.3-1_all.deb
+ b3a2035cb0421bd1559df2594d8d259c1f85152b96334d9760594df013714e59 5697 shutils_0.3-1_amd64.buildinfo
+Files:
+ 0e4b81f3d86e244e256c180620776900 797 unknown optional shutils_0.3-1.dsc
+ 21bfc3f8bf44b68be219e468190824a7 7168 unknown optional shutils_0.3.orig.tar.xz
+ 1078fd826fffd719007f93e140320314 8304 unknown optional shutils_0.3-1.debian.tar.xz
+ e55233f6901c63b82de253c001931b8d 10632 unknown optional shutils_0.3-1_all.deb
+ 2bf51d207f822fa1935ee7ab597fb7c2 5697 unknown optional shutils_0.3-1_amd64.buildinfo
