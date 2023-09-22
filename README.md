@@ -22,6 +22,7 @@ Collection of useful bash functions
 * gitcommit
 * gitinfo
 * gitinfall
+* gitprinfo
 * kp
 * jsonload
 * myinfo

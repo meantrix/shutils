@@ -1,3 +1,7 @@
+## 0.0.3 (22/09/23)
+
+### New Methods
+- gitprinfo : Get user's git pull request (PR) history within a time range
 ## 0.0.2 (04/06/23)
 
 ### New Methods
