@@ -6,9 +6,10 @@
 ./filelarlist.sh
 ./filenum.sh
 ./filextract.sh
-./gitcommit.sh
-./gitinfall.sh
-./gitinfo.sh
+./gitc.sh
+./gitcinfo.sh
+./gitcsinfo.sh
+./gitisinfo.sh
 ./gitprinfo.sh
 ./help.sh
 ./instR3.sh

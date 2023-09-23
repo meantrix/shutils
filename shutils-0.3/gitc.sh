@@ -5,7 +5,7 @@
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-gitcommit () {
+gitc () {
 
         if [ $# -eq 0 ]; then
             echo "Please enter a commit message:";

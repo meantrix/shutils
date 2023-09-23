@@ -73,9 +73,10 @@ W: shutils: executable-not-elf-or-script bin/shutils/filefirst.sh
 W: shutils: executable-not-elf-or-script bin/shutils/filelarlist.sh
 W: shutils: executable-not-elf-or-script bin/shutils/filenum.sh
 W: shutils: executable-not-elf-or-script bin/shutils/filextract.sh
-W: shutils: executable-not-elf-or-script bin/shutils/gitcommit.sh
-W: shutils: executable-not-elf-or-script bin/shutils/gitinfall.sh
-W: shutils: executable-not-elf-or-script bin/shutils/gitinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitc.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitcinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitcsinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitisinfo.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitprinfo.sh
 W: shutils: executable-not-elf-or-script bin/shutils/help.sh
 W: shutils: executable-not-elf-or-script bin/shutils/instR3.sh

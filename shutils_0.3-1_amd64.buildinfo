@@ -4,17 +4,17 @@ Binary: shutils
 Architecture: all source
 Version: 0.3-1
 Checksums-Md5:
- 0e4b81f3d86e244e256c180620776900 797 shutils_0.3-1.dsc
- e55233f6901c63b82de253c001931b8d 10632 shutils_0.3-1_all.deb
+ 0e07ab6ec0686a7f6a08456be03d8817 797 shutils_0.3-1.dsc
+ bc6340a10f0953045b8f2ce4a7dd885b 10924 shutils_0.3-1_all.deb
 Checksums-Sha1:
- 95b89a457f464df3b1cc465c9da129f4a6e365c0 797 shutils_0.3-1.dsc
- 006e788815720f9a055094886b2ac3773b1669b6 10632 shutils_0.3-1_all.deb
+ f403791fa647c1ea4a07120ea6199373db45c717 797 shutils_0.3-1.dsc
+ 9467c3849cb8237c034474fccc1ba8f3e7b4b2e1 10924 shutils_0.3-1_all.deb
 Checksums-Sha256:
- a767062d592cc9d5c3e0b959e5ed6e2c2ac34fad4e92bbfac54319420cb0c059 797 shutils_0.3-1.dsc
- dcd10780a2eb4a488340de7c07e39139ececac1b5fda37432cf9076fcd5f6ec6 10632 shutils_0.3-1_all.deb
+ 3f761984a17e4e0af570c1057485bfb37c5407ac0413ca101a556d966bea7961 797 shutils_0.3-1.dsc
+ a7478be69b9deed4cbc11014dc2c08b7efb57588d242bc8e2e3e180253c376d2 10924 shutils_0.3-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 22 Sep 2023 18:57:48 -0300
+Build-Date: Fri, 22 Sep 2023 22:54:49 -0300
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-configs
@@ -174,4 +174,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=16"
  LANG="pt_BR.UTF-8"
- SOURCE_DATE_EPOCH="1695419855"
+ SOURCE_DATE_EPOCH="1695434070"

@@ -7,7 +7,7 @@
 # Returns:
 #   0 if running was successful, non-zero on error.
 #######################################
-gitinfo () {
+gitcinfo () {
 
   local user="$1"
   local day="$2"
