@@ -2,6 +2,14 @@
 
 ### New Methods
 - gitprinfo : Get user's git pull request (PR) history within a time range
+- gitisinfo : Get the total count of closed issues assigned to a user in multiple Git repositories within a specified time range.
+
+### Other
+- Renamed methods :
+    * gitinfall to gitcsinfo ;
+    * gitcommit to gitc ;
+    * gitinfo to gitcinfo;
+    
 ## 0.0.2 (04/06/23)
 
 ### New Methods
