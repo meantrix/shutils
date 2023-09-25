@@ -20,8 +20,10 @@ Collection of useful bash functions
 * filextract
 * filelarlist
 * gitcommit
-* gitinfo
-* gitinfall
+* gitcinfo
+* gitcsinfo
+* gitprinfo
+* gitisinfo
 * kp
 * jsonload
 * myinfo

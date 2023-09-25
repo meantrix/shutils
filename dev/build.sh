@@ -12,7 +12,7 @@ EOF
 #Using dh_make to create the debian packaging structure
 
 cd shutils/
-cd shutils-0.2/
+cd shutils-0.3/
 rm -rf debian/
 dh_make --indep --createorig
 # Create the debian/install and preinst files
@@ -25,4 +25,4 @@ cp ../dev/control debian/control
 debuild -us -uc
 
 sudo apt remove shutils
-sudo dpkg -i ../shutils_0.2-1_all.deb
+sudo dpkg -i ../shutils_0.3-1_all.deb
