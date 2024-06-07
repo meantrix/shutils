@@ -12,7 +12,7 @@ EOF
 #Using dh_make to create the debian packaging structure
 
 cd shutils/
-cd shutils-0.3/
+cd shutils-0.4/
 rm -rf debian/
 dh_make --indep --createorig
 # Create the debian/install and preinst files
