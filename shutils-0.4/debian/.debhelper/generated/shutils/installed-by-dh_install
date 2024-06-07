@@ -10,7 +10,9 @@
 ./gitcinfo.sh
 ./gitcsinfo.sh
 ./gitisinfo.sh
+./gitlog.sh
 ./gitprinfo.sh
+./gptsend.sh
 ./help.sh
 ./instR3.sh
 ./instT.sh

@@ -10,13 +10,15 @@ f7a66429b8348e12cd1e699202703558  bin/shutils/gitc.sh
 3604c3e88bb4c15424681424ca53aaf6  bin/shutils/gitcinfo.sh
 e3913b735f4cc73daef28865a785559f  bin/shutils/gitcsinfo.sh
 0f8526ba27b25d905648857c48e1e23e  bin/shutils/gitisinfo.sh
+eeef7c23d6602adbc548c34f6bb0351a  bin/shutils/gitlog.sh
 90c360af603febf397b2e91902e7e254  bin/shutils/gitprinfo.sh
+9b38660063b41214be48e8a853a8aa97  bin/shutils/gptsend.sh
 b856ea2523e79878edb10e2a610877f9  bin/shutils/help.sh
 61fe3f5ad16a3ad51ee0766ad1b95f6e  bin/shutils/instR3.sh
 3afd05f3b95fa96bd2f015d0e02c9b64  bin/shutils/instT.sh
 edc0f836a14e135f23d239032590f554  bin/shutils/jsonload.sh
 580c0b80ae4dcf34c8c5ec29c21fb0b5  bin/shutils/kp.sh
-d5d8d896c7f1500112a022b65512e574  bin/shutils/list.sh
+5d7762f7f1b1a7788832edd3b7d8c2e4  bin/shutils/list.sh
 cfcd8750cd8c806c9748b433e53e551e  bin/shutils/myinfo.sh
 53034d8616f58358e3aa7edc80b3106a  bin/shutils/netinfo.sh
 eee208863d7f70a1bf6fde1f7de7b99a  bin/shutils/netmyip.sh
@@ -31,6 +33,6 @@ f782554e1a46d22c1dab450f8a4e3657  bin/shutils/shutils.sh
 879fe06f7640cfee1bd495f1576be480  bin/shutils/ssd.sh
 1314008262df5ac41ed9b13ffd4a6f5c  bin/shutils/version.sh
 40be59de6d205d06232ff08bad4f3969  bin/shutils/whoisport.sh
-388c10c988f31069c8081c5c11ad4f72  usr/share/doc/shutils/README.Debian
-cb0a90c2042ec70aeb16868663270211  usr/share/doc/shutils/changelog.Debian.gz
-3c64d07f1a73bb37daa4bd85a317efb7  usr/share/doc/shutils/copyright
+3889f6537e58d3ac939a9f7a4a1a01dd  usr/share/doc/shutils/README.Debian
+525ea78858fce130bff0c2363e5e02eb  usr/share/doc/shutils/changelog.Debian.gz
+9d3214b6c5a3501855a64af90ea71cb6  usr/share/doc/shutils/copyright

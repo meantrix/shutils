@@ -14,27 +14,3 @@ fi
 
 sed -i '/\. \/etc\/profile\.d\/shutils\.sh/d' /etc/bash.bashrc
 
-
-
-ACR_RESOURCE_GROUP=geotrix3d-01
-ACR_NAME=geotrix3d
-ACR_LOGIN_SERVER=geotrix3d.azurecr.io
-SHINYPROXY_IMAGE=geotrix3d.azurecr.io/shinyproxy:0.0.1
-
-cd /geotrix3d-bash
-
-
-# ALTERAR kube/shinyproxy/application.yml
-
-
-echo $SHINYPROXY_IMAGE
-docker build -t $SHINYPROXY_IMAGE -f ./kube/shinyproxy/Dockerfile ./kube/shinyproxy --no-cache
-
-az acr login --name $ACR_NAME
-
-#az acr repository delete --name $ACR_NAME --image $SHINYPROXY_IMAGE
-
-docker push $SHINYPROXY_IMAGE
-shutils podel sp-pod
-shutils podel shinyproxy
-

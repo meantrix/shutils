@@ -77,7 +77,9 @@ W: shutils: executable-not-elf-or-script bin/shutils/gitc.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitcinfo.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitcsinfo.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitisinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitlog.sh
 W: shutils: executable-not-elf-or-script bin/shutils/gitprinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gptsend.sh
 W: shutils: executable-not-elf-or-script bin/shutils/help.sh
 W: shutils: executable-not-elf-or-script bin/shutils/instR3.sh
 W: shutils: executable-not-elf-or-script bin/shutils/instT.sh

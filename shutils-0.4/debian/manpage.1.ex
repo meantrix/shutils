@@ -1,10 +1,10 @@
 .\"                                      Hey, EMACS: -*- nroff -*-
-.\" (C) Copyright 2023 Igor Siciliani <dev@meantrix.com>,
+.\" (C) Copyright 2024 Igor Siciliani <dev@meantrix.com>,
 .\"
 .\" First parameter, NAME, should be all caps
 .\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
 .\" other parameters are allowed: see man(7), man(1)
-.TH Shutils SECTION "October 20 2023"
+.TH Shutils SECTION "June  7 2024"
 .\" Please adjust this date whenever revising the manpage.
 .\"
 .\" Some roff macros, for reference:

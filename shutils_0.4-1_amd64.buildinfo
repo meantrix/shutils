@@ -4,17 +4,17 @@ Binary: shutils
 Architecture: all source
 Version: 0.4-1
 Checksums-Md5:
- b261dd55223a3d4168b6a407936b7f75 797 shutils_0.4-1.dsc
- 6b82eacaf320311b5e50fb809e30775b 10920 shutils_0.4-1_all.deb
+ 055c901c3fab77657294afb48791e3f4 797 shutils_0.4-1.dsc
+ 49795aeafd36824260b184ff59d59ae2 12740 shutils_0.4-1_all.deb
 Checksums-Sha1:
- f2771430ba20dda5efce5820db3277e0e993e780 797 shutils_0.4-1.dsc
- 4232879465c96f7841e5e9e59e7f192c38d9f019 10920 shutils_0.4-1_all.deb
+ 2800e7c163b6a04ddab1c3b6e991c631ddbd3fe7 797 shutils_0.4-1.dsc
+ 86429db6413dbafea3fec8befec5c077f9c0c975 12740 shutils_0.4-1_all.deb
 Checksums-Sha256:
- b260a15d1946b78ebc563a9a22496beb144558dc99be28fe8bac285c22f96780 797 shutils_0.4-1.dsc
- c3f477ddd6f7a6d925d8b8737756fab23db17b92071cc46c85ead3466b19a857 10920 shutils_0.4-1_all.deb
+ c5fab946160f9adb5ed27d8c7828316c0ff76d05d64e647e84c60a0f608653a3 797 shutils_0.4-1.dsc
+ 00d35acdc0525b2c02a5dea085a561459b87e7d7c4e541268ea56d6d1951fff4 12740 shutils_0.4-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 20 Oct 2023 11:07:17 -0300
+Build-Date: Fri, 07 Jun 2024 16:28:10 -0300
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-configs
@@ -26,14 +26,14 @@ Installed-Build-Depends:
  automake (= 1:1.16.1-4ubuntu6),
  autopoint (= 0.19.8.1-10build1),
  autotools-dev (= 20180224.1),
- base-files (= 11ubuntu5.7),
+ base-files (= 11ubuntu5.8),
  base-passwd (= 3.5.47),
  bash (= 5.0-6ubuntu1.2),
- binutils (= 2.34-6ubuntu1.6),
- binutils-common (= 2.34-6ubuntu1.6),
- binutils-x86-64-linux-gnu (= 2.34-6ubuntu1.6),
+ binutils (= 2.34-6ubuntu1.9),
+ binutils-common (= 2.34-6ubuntu1.9),
+ binutils-x86-64-linux-gnu (= 2.34-6ubuntu1.9),
  bsdmainutils (= 11.1.2ubuntu3),
- bsdutils (= 1:2.34-0.1ubuntu9.4),
+ bsdutils (= 1:2.34-0.1ubuntu9.6),
  build-essential (= 12.8ubuntu1.1),
  bzip2 (= 1.0.8-2),
  coreutils (= 8.30-3ubuntu2),
@@ -77,21 +77,21 @@ Installed-Build-Depends:
  libattr1 (= 1:2.4.48-5),
  libaudit-common (= 1:2.8.5-2ubuntu6),
  libaudit1 (= 1:2.8.5-2ubuntu6),
- libbinutils (= 2.34-6ubuntu1.6),
- libblkid1 (= 2.34-0.1ubuntu9.4),
+ libbinutils (= 2.34-6ubuntu1.9),
+ libblkid1 (= 2.34-0.1ubuntu9.6),
  libbsd0 (= 0.10.0-1),
  libbz2-1.0 (= 1.0.8-2),
- libc-bin (= 2.31-0ubuntu9.12),
- libc-dev-bin (= 2.31-0ubuntu9.12),
- libc6 (= 2.31-0ubuntu9.12),
- libc6-dev (= 2.31-0ubuntu9.12),
+ libc-bin (= 2.31-0ubuntu9.16),
+ libc-dev-bin (= 2.31-0ubuntu9.16),
+ libc6 (= 2.31-0ubuntu9.16),
+ libc6-dev (= 2.31-0ubuntu9.16),
  libcap-ng0 (= 0.7.9-2.1build1),
  libcc1-0 (= 10.5.0-1ubuntu1~20.04),
  libcroco3 (= 0.6.13-1),
  libcrypt-dev (= 1:4.4.10-10ubuntu4),
  libcrypt1 (= 1:4.4.10-10ubuntu4),
- libctf-nobfd0 (= 2.34-6ubuntu1.6),
- libctf0 (= 2.34-6ubuntu1.6),
+ libctf-nobfd0 (= 2.34-6ubuntu1.9),
+ libctf0 (= 2.34-6ubuntu1.9),
  libdb5.3 (= 5.3.28+dfsg1-0.6ubuntu2),
  libdebconfclient0 (= 0.251ubuntu1),
  libdebhelper-perl (= 12.10ubuntu1),
@@ -105,7 +105,7 @@ Installed-Build-Depends:
  libgcrypt20 (= 1.8.5-5ubuntu1.1),
  libgdbm-compat4 (= 1.18.1-5),
  libgdbm6 (= 1.18.1-5),
- libglib2.0-0 (= 2.64.6-1~ubuntu20.04.6),
+ libglib2.0-0 (= 2.64.6-1~ubuntu20.04.7),
  libgmp10 (= 2:6.2.0+dfsg-4ubuntu0.1),
  libgomp1 (= 10.5.0-1ubuntu1~20.04),
  libgpg-error0 (= 1.37-1),
@@ -117,39 +117,39 @@ Installed-Build-Depends:
  liblzma5 (= 5.2.4-1ubuntu1.1),
  libmagic-mgc (= 1:5.38-4),
  libmagic1 (= 1:5.38-4),
- libmount1 (= 2.34-0.1ubuntu9.4),
+ libmount1 (= 2.34-0.1ubuntu9.6),
  libmpc3 (= 1.1.0-1),
  libmpfr6 (= 4.0.2-1),
- libpam-modules (= 1.3.1-5ubuntu4.6),
- libpam-modules-bin (= 1.3.1-5ubuntu4.6),
- libpam-runtime (= 1.3.1-5ubuntu4.6),
- libpam0g (= 1.3.1-5ubuntu4.6),
+ libpam-modules (= 1.3.1-5ubuntu4.7),
+ libpam-modules-bin (= 1.3.1-5ubuntu4.7),
+ libpam-runtime (= 1.3.1-5ubuntu4.7),
+ libpam0g (= 1.3.1-5ubuntu4.7),
  libpcre2-8-0 (= 10.34-7ubuntu0.1),
  libpcre3 (= 2:8.39-12ubuntu0.1),
- libperl5.30 (= 5.30.0-9ubuntu0.4),
+ libperl5.30 (= 5.30.0-9ubuntu0.5),
  libpipeline1 (= 1.5.2-2build1),
  libquadmath0 (= 10.5.0-1ubuntu1~20.04),
  libreadline8 (= 8.0-4),
  libseccomp2 (= 2.5.1-1ubuntu1~20.04.2),
  libselinux1 (= 3.0-1build2),
  libsigsegv2 (= 2.12-2),
- libsmartcols1 (= 2.34-0.1ubuntu9.4),
+ libsmartcols1 (= 2.34-0.1ubuntu9.6),
  libstdc++-9-dev (= 9.4.0-1ubuntu1~20.04.2),
  libstdc++6 (= 10.5.0-1ubuntu1~20.04),
  libsub-override-perl (= 0.09-2),
- libsystemd0 (= 245.4-4ubuntu3.22),
+ libsystemd0 (= 245.4-4ubuntu3.23),
  libtinfo6 (= 6.2-0ubuntu2.1),
  libtool (= 2.4.6-14),
  libtsan0 (= 10.5.0-1ubuntu1~20.04),
  libubsan1 (= 10.5.0-1ubuntu1~20.04),
  libuchardet0 (= 0.0.6-3build1),
- libudev1 (= 245.4-4ubuntu3.22),
+ libudev1 (= 245.4-4ubuntu3.23),
  libunistring2 (= 0.9.10-2),
- libuuid1 (= 2.34-0.1ubuntu9.4),
- libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.6),
+ libuuid1 (= 2.34-0.1ubuntu9.6),
+ libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.7),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-165.182),
- login (= 1:4.8.1-1ubuntu5.20.04.4),
+ linux-libc-dev (= 5.4.0-182.202),
+ login (= 1:4.8.1-1ubuntu5.20.04.5),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
  make (= 4.2.1-1.2),
@@ -158,20 +158,20 @@ Installed-Build-Depends:
  ncurses-base (= 6.2-0ubuntu2.1),
  ncurses-bin (= 6.2-0ubuntu2.1),
  patch (= 2.7.6-6),
- perl (= 5.30.0-9ubuntu0.4),
- perl-base (= 5.30.0-9ubuntu0.4),
- perl-modules-5.30 (= 5.30.0-9ubuntu0.4),
+ perl (= 5.30.0-9ubuntu0.5),
+ perl-base (= 5.30.0-9ubuntu0.5),
+ perl-modules-5.30 (= 5.30.0-9ubuntu0.5),
  po-debconf (= 1.0.21),
  readline-common (= 8.0-4),
  sed (= 4.7-1),
  sensible-utils (= 0.0.12+nmu1),
  sysvinit-utils (= 2.96-2.1ubuntu1),
- tar (= 1.30+dfsg-7ubuntu0.20.04.3),
- tzdata (= 2023c-0ubuntu0.20.04.2),
- util-linux (= 2.34-0.1ubuntu9.4),
+ tar (= 1.30+dfsg-7ubuntu0.20.04.4),
+ tzdata (= 2024a-0ubuntu0.20.04),
+ util-linux (= 2.34-0.1ubuntu9.6),
  xz-utils (= 5.2.4-1ubuntu1.1),
  zlib1g (= 1:1.2.11.dfsg-2ubuntu1.5)
 Environment:
  DEB_BUILD_OPTIONS="parallel=16"
  LANG="pt_BR.UTF-8"
- SOURCE_DATE_EPOCH="1697810821"
+ SOURCE_DATE_EPOCH="1717788473"
