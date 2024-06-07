@@ -5,7 +5,7 @@
 #   [version]: The version of Terraform to install (e.g., 1.2.3)
 #   [architecture]: The architecture of the Linux system (e.g., linux_amd64)
 # Returns:
-#   0 if the Terraform installation is successful, 1 otherwise
+#   terraform version if the Terraform installation is successful, 1 otherwise
 #######################################
 instT() {
     local version="${1:-1.2.3}"
@@ -19,20 +19,19 @@ instT() {
         echo "This script is only compatible with Linux operating systems."
         return 1
     fi
-
-    # Check if the appropriate .zip file is available
-    local zip_file="${terraform_zip}"
-    if [[ ! -f "${zip_file}" ]]; then
-        echo "The .zip file corresponding to the specified architecture is not available for download."
-        return 1
-    fi
-
+    
     # Download the .zip file
     wget "$download_url/$terraform_zip"
 
     # Check if the download is successful
     if [[ $? -ne 0 ]]; then
         echo "Failed to download the .zip file."
+        return 1
+    fi
+
+    # Check if the appropriate .zip file is available
+    if [[ ! -f "${terraform_zip}" ]]; then
+        echo "The .zip file corresponding to the specified architecture is not available for download."
         return 1
     fi
 
