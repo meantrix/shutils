@@ -1,16 +1,23 @@
+#!/bin/bash
+
 echo "Looking for old version of shutils..."
 
-if [ -f /etc/profile.d/shutils.sh ]
-then
+if [ -f /etc/profile.d/shutils.sh ]; then
     sudo rm -f /etc/profile.d/shutils.sh
     echo "Removed old shutils from /etc/profile.d..."
 fi
 
-if [ -d /bin/shutils ]
-then
+if [ -d /bin/shutils ]; then
     sudo rm -rf /bin/shutils
     echo "Removed old shutils from /bin..."
 fi
 
-sed -i '/\. \/etc\/profile\.d\/shutils\.sh/d' /etc/bash.bashrc
+# Clean up shutils entries from bashrc
+if [ -f /etc/bash.bashrc ]; then
+    sed -i '/\. \/etc\/profile\.d\/shutils\.sh/d' /etc/bash.bashrc
+fi
 
+# Check if zshrc exists before trying to modify it
+if [ -f /etc/zsh/zshrc ]; then
+    sed -i '/\. \/etc\/profile\.d\/shutils\.sh/d' /etc/zsh/zshrc
+fi

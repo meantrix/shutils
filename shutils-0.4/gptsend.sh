@@ -20,27 +20,27 @@ gptsend() {
   local prompt="${2:-Please focus on '## File Changes' and '## Detailed File Changes' to generate a human-like changelog describing the changes made in these sections.}"
   local max_tokens="${3:-4096}"  # Aumentando o limite de tokens
   local model="${4:-gpt-3.5-turbo}"
-  local max_lines=1000  # Definindo o número máximo de linhas permitidas
+  local max_lines=2000  
 
   if [[ -z "${OPENAI_API_KEY}" ]]; then
     echo "OPENAI_API_KEY global variable is not set. Please set your API key and try again."
-    exit 1
+    return 1 
   fi
 
   if [[ ! -f "$markdown_file" ]]; then
     echo "File $markdown_file not found or not specified."
-    exit 1
+    return 1 
   fi
 
   if ! command -v jq &> /dev/null; then
     echo "The 'jq' command is required but not installed. Please install it and try again."
-    exit 1
+    return 1 
   fi
 
   local line_count=$(wc -l < "$markdown_file")
   if (( line_count > max_lines )); then
     echo "Error: The document exceeds the maximum line count of $max_lines lines."
-    exit 1
+    return 1 
   fi
 
   local text=$(<"$markdown_file")

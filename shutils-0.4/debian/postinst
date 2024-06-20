@@ -3,16 +3,30 @@
 set -e
 set -x
 
-# loading functions
-. /bin/shutils/shutils.sh
+# Set execution permissions for all files in /bin/shutils/
+chmod -R +x /bin/shutils/
 
-# export functions to bash
-echo '. /bin/shutils/shutils.sh' > /etc/profile.d/shutils.sh
-
-# Add shutils to bash.bashrc if not already present
-if ! grep -q '/etc/profile.d/shutils.sh' /etc/bash.bashrc; then
-    echo ". /etc/profile.d/shutils.sh" >> /etc/bash.bashrc
+# Check if the shutils.sh file exists
+if [ -f /bin/shutils/shutils.sh ]; then
+    . /bin/shutils/shutils.sh
+else
+    echo "Error: can't find /bin/shutils/shutils.sh file"
+    exit 1
 fi
 
-# Configuração concluída
-echo "Shutils install end."
+# Export functions to bash and zsh
+echo '. /bin/shutils/shutils.sh' > /etc/profile.d/shutils.sh
+
+# Add shutils to bashrc and zshrc if not already present
+if [ -f /etc/bash.bashrc ]; then
+    if ! grep -q '/etc/profile.d/shutils.sh' /etc/bash.bashrc; then
+        echo ". /etc/profile.d/shutils.sh" >> /etc/bash.bashrc
+    fi
+fi
+if [ -f /etc/zsh/zshrc ]; then
+    if ! grep -q '/etc/profile.d/shutils.sh' /etc/zsh/zshrc; then
+        echo ". /etc/profile.d/shutils.sh" >> /etc/zsh/zshrc
+    fi
+fi
+
+echo "Shutils installation completed."

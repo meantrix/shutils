@@ -4,17 +4,17 @@ Binary: shutils
 Architecture: all source
 Version: 0.4-1
 Checksums-Md5:
- 055c901c3fab77657294afb48791e3f4 797 shutils_0.4-1.dsc
- 49795aeafd36824260b184ff59d59ae2 12740 shutils_0.4-1_all.deb
+ 6b064f216b9bc66b2368f40407019b86 797 shutils_0.4-1.dsc
+ 42974f6b0d2eb800a165cfebb9f5cfce 12896 shutils_0.4-1_all.deb
 Checksums-Sha1:
- 2800e7c163b6a04ddab1c3b6e991c631ddbd3fe7 797 shutils_0.4-1.dsc
- 86429db6413dbafea3fec8befec5c077f9c0c975 12740 shutils_0.4-1_all.deb
+ 6a9296e59d3e17e44aa5a9264468fb6c671b73a2 797 shutils_0.4-1.dsc
+ ebc081822e53c95aac345c2b77cda4f805447cad 12896 shutils_0.4-1_all.deb
 Checksums-Sha256:
- c5fab946160f9adb5ed27d8c7828316c0ff76d05d64e647e84c60a0f608653a3 797 shutils_0.4-1.dsc
- 00d35acdc0525b2c02a5dea085a561459b87e7d7c4e541268ea56d6d1951fff4 12740 shutils_0.4-1_all.deb
+ 3a0e0b5b9af02d693839e44ac577a4035a7462dffca94a86bb58983134b294ab 797 shutils_0.4-1.dsc
+ 6d21758dfae62cd816eee0038b5a558e3e519b175937f45f031403a18a6c57cc 12896 shutils_0.4-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 07 Jun 2024 16:28:10 -0300
+Build-Date: Thu, 20 Jun 2024 12:00:28 -0300
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-configs
@@ -148,7 +148,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.34-0.1ubuntu9.6),
  libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.7),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-182.202),
+ linux-libc-dev (= 5.4.0-186.206),
  login (= 1:4.8.1-1ubuntu5.20.04.5),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
@@ -174,4 +174,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=16"
  LANG="pt_BR.UTF-8"
- SOURCE_DATE_EPOCH="1717788473"
+ SOURCE_DATE_EPOCH="1718895613"

@@ -49,7 +49,6 @@ E: shutils source: debian-rules-is-dh_make-template
 E: shutils: extended-description-is-empty
 E: shutils: helper-templates-in-copyright
 E: shutils source: readme-source-is-dh_make-template
-E: shutils: script-without-interpreter control/preinst
 E: shutils: section-is-dh_make-template
 E: shutils: subdir-in-bin bin/shutils/
 W: shutils: copyright-has-url-from-dh_make-boilerplate
@@ -100,9 +99,11 @@ W: shutils: executable-not-elf-or-script bin/shutils/shutils.sh
 W: shutils: executable-not-elf-or-script bin/shutils/ssd.sh
 W: shutils: executable-not-elf-or-script bin/shutils/version.sh
 W: shutils: executable-not-elf-or-script bin/shutils/whoisport.sh
+W: shutils: maintainer-script-ignores-errors preinst
 W: shutils source: maintainer-script-lacks-debhelper-token debian/postinst
 W: shutils source: maintainer-script-lacks-debhelper-token debian/postrm
 W: shutils source: maintainer-script-lacks-debhelper-token debian/preinst
+W: shutils: maintainer-script-should-not-use-recursive-chown-or-chmod postinst:7
 W: shutils: new-package-should-close-itp-bug
 W: shutils: readme-debian-contains-debmake-template
 W: shutils source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 6)
