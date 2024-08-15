@@ -1,8 +1,11 @@
-## 0.0.4 (07/06/24)
+## 0.5 (15/08/24)
+- **`portkill`**:Kill all processes running on a specific port.
 
-## Changelog for shutils Package - Version 0.0.4 (07/06/24)
+## 0.4 (07/06/24)
 
-### New Methods in 0.0.4
+## Changelog for shutils Package - Version 0.4 (07/06/24)
+
+### New Methods in 0.4
 
 - **`gitlog`**: This function generates a comprehensive changelog between two specified branches, including detailed file changes. It's designed to provide insights into the modifications within a Git repository, listing all commits, the status of files (added, removed, modified), and producing a diff of the changes. This tool is particularly useful for developers and teams needing to track changes systematically before releases or for documentation purposes.
 
@@ -26,7 +29,7 @@
 - Streamlined error handling and user feedback mechanisms across the script suite to enhance usability and reliability.
 
 
-## 0.0.3 (22/09/23)
+## 0.3 (22/09/23)
 
 ### New Methods
 - gitprinfo : Get user's git pull request (PR) history within a time range
@@ -38,7 +41,7 @@
     * gitcommit to gitc ;
     * gitinfo to gitcinfo;
     
-## 0.0.2 (04/06/23)
+## 0.2 (04/06/23)
 
 ### New Methods
 
@@ -51,7 +54,7 @@
 
  - refact `shutils` main method ;
 
-## 0.0.1
+## 0.1
 
 first version of the package to be used in cloud process automation
 

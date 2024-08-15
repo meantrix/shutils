@@ -28,6 +28,7 @@
 ./podlog.sh
 ./podres.sh
 ./podvalidname.sh
+./portkill.sh
 ./psa.sh
 ./shutils.sh
 ./ssd.sh
