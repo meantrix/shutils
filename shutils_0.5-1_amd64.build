@@ -1,0 +1,112 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: informação: pacote fonte shutils
+dpkg-buildpackage: informação: versão da fonte 0.5-1
+dpkg-buildpackage: informação: source distribution unstable
+dpkg-buildpackage: informação: fonte alterada por Igor Siciliani <dev@meantrix.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: informação: arquitetura do servidor amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: informação: using source format '3.0 (quilt)'
+dpkg-source: informação: building shutils using existing ./shutils_0.5.orig.tar.xz
+dpkg-source: informação: compilando shutils no shutils_0.5-1.debian.tar.xz
+dpkg-source: informação: compilando shutils no shutils_0.5-1.dsc
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: a compilar o pacote 'shutils' em '../shutils_0.5-1_all.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../shutils_0.5-1_amd64.changes
+dpkg-genchanges: informação: incluindo todos os códigos fonte no upload
+ dpkg-source --after-build .
+dpkg-buildpackage: informação: envio completo (fontes originais estão inclusas)
+Now running lintian shutils_0.5-1_amd64.changes ...
+E: shutils changes: bad-distribution-in-changes-file unstable
+E: shutils: changelog-is-dh_make-template
+E: shutils: copyright-contains-dh_make-todo-boilerplate
+E: shutils source: debian-rules-is-dh_make-template
+E: shutils: extended-description-is-empty
+E: shutils: helper-templates-in-copyright
+E: shutils source: readme-source-is-dh_make-template
+E: shutils: section-is-dh_make-template
+E: shutils: subdir-in-bin bin/shutils/
+W: shutils: copyright-has-url-from-dh_make-boilerplate
+W: shutils source: debhelper-but-no-misc-depends shutils
+W: shutils source: dh-make-template-in-source debian/manpage.1.ex
+W: shutils source: dh-make-template-in-source debian/manpage.sgml.ex
+W: shutils source: dh-make-template-in-source debian/manpage.xml.ex
+W: shutils source: dh-make-template-in-source debian/postinst.ex
+W: shutils source: dh-make-template-in-source debian/postrm.ex
+W: shutils source: dh-make-template-in-source debian/preinst.ex
+W: shutils source: dh-make-template-in-source debian/prerm.ex
+W: shutils source: dh-make-template-in-source debian/salsa-ci.yml.ex
+W: shutils source: dh-make-template-in-source debian/shutils.cron.d.ex
+W: shutils source: dh-make-template-in-source debian/shutils.doc-base.EX
+W: shutils source: dh-make-template-in-source debian/watch.ex
+W: shutils: executable-not-elf-or-script bin/shutils/azcopy10inst.sh
+W: shutils: executable-not-elf-or-script bin/shutils/dockerhubp.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filebu.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filecompress.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filefirst.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filelarlist.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filenum.sh
+W: shutils: executable-not-elf-or-script bin/shutils/filextract.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitc.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitcinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitcsinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitisinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitlog.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gitprinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/gptsend.sh
+W: shutils: executable-not-elf-or-script bin/shutils/help.sh
+W: shutils: executable-not-elf-or-script bin/shutils/instR3.sh
+W: shutils: executable-not-elf-or-script bin/shutils/instT.sh
+W: shutils: executable-not-elf-or-script bin/shutils/jsonload.sh
+W: shutils: executable-not-elf-or-script bin/shutils/kp.sh
+W: shutils: executable-not-elf-or-script bin/shutils/list.sh
+W: shutils: executable-not-elf-or-script bin/shutils/myinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/netinfo.sh
+W: shutils: executable-not-elf-or-script bin/shutils/netmyip.sh
+W: shutils: executable-not-elf-or-script bin/shutils/nviuse.sh
+W: shutils: executable-not-elf-or-script bin/shutils/podel.sh
+W: shutils: executable-not-elf-or-script bin/shutils/podget.sh
+W: shutils: executable-not-elf-or-script bin/shutils/podlog.sh
+W: shutils: executable-not-elf-or-script bin/shutils/podres.sh
+W: shutils: executable-not-elf-or-script bin/shutils/podvalidname.sh
+W: shutils: executable-not-elf-or-script bin/shutils/portkill.sh
+W: shutils: executable-not-elf-or-script bin/shutils/psa.sh
+W: shutils: executable-not-elf-or-script bin/shutils/shutils.sh
+W: shutils: executable-not-elf-or-script bin/shutils/ssd.sh
+W: shutils: executable-not-elf-or-script bin/shutils/version.sh
+W: shutils: executable-not-elf-or-script bin/shutils/whoisport.sh
+W: shutils: maintainer-script-ignores-errors preinst
+W: shutils source: maintainer-script-lacks-debhelper-token debian/postinst
+W: shutils source: maintainer-script-lacks-debhelper-token debian/postrm
+W: shutils source: maintainer-script-lacks-debhelper-token debian/preinst
+W: shutils: maintainer-script-should-not-use-recursive-chown-or-chmod postinst:7
+W: shutils: new-package-should-close-itp-bug
+W: shutils: readme-debian-contains-debmake-template
+W: shutils source: space-in-std-shortname-in-dep5-copyright <special license> (paragraph at line 6)
+W: shutils: wrong-bug-number-in-closes l3:#nnnn
+Finished running lintian.
