@@ -1,35 +1,35 @@
 #!/bin/bash
-
 set -e
 set -x
 
-# create work directory
-mkdir -p /bin/shutils/
+SHUTILS_FILE="/bin/shutils/shutils.sh"
+PROFILE_FILE="/etc/profile.d/shutils.sh"
+BASHRC_FILE="/etc/bash.bashrc"
+ZSHRC_FILE="/etc/zsh/zshrc"
+HOOK_LINE='. /etc/profile.d/shutils.sh'
 
-# Set execution permissions for all files in /bin/shutils/
-chmod -R +x /bin/shutils/
-
-# Check if the shutils.sh file exists
-if [ -f /bin/shutils/shutils.sh ]; then
-    . /bin/shutils/shutils.sh
-else
-    echo "Error: can't find /bin/shutils/shutils.sh file"
+if [ ! -f "$SHUTILS_FILE" ]; then
+    echo "Error: can't find $SHUTILS_FILE"
     exit 1
 fi
 
-# Export functions to bash and zsh
-echo '. /bin/shutils/shutils.sh' > /etc/profile.d/shutils.sh
+cat > "$PROFILE_FILE" <<EOF
+[ -f "$SHUTILS_FILE" ] && . "$SHUTILS_FILE"
+EOF
 
-# Add shutils to bashrc and zshrc if not already present
-if [ -f /etc/bash.bashrc ]; then
-    if ! grep -q '/etc/profile.d/shutils.sh' /etc/bash.bashrc; then
-        echo ". /etc/profile.d/shutils.sh" >> /etc/bash.bashrc
+chmod 644 "$PROFILE_FILE"
+
+if [ -f "$BASHRC_FILE" ]; then
+    if ! grep -Fqx "$HOOK_LINE" "$BASHRC_FILE"; then
+        echo "$HOOK_LINE" >> "$BASHRC_FILE"
     fi
 fi
-if [ -f /etc/zsh/zshrc ]; then
-    if ! grep -q '/etc/profile.d/shutils.sh' /etc/zsh/zshrc; then
-        echo ". /etc/profile.d/shutils.sh" >> /etc/zsh/zshrc
+
+if [ -f "$ZSHRC_FILE" ]; then
+    if ! grep -Fqx "$HOOK_LINE" "$ZSHRC_FILE"; then
+        echo "$HOOK_LINE" >> "$ZSHRC_FILE"
     fi
 fi
 
 echo "Shutils installation completed."
+exit 0
