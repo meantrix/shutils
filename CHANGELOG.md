@@ -1,3 +1,13 @@
+## 0.6 (10/03/26)
+- **Package installation/upgrade fix**: Fixed `.deb` installation and reinstallation flow for newer Ubuntu versions, especially Ubuntu 24.04.
+- **`postinst`**: Added post-install configuration to load `shutils.sh` through `/etc/profile.d/shutils.sh`.
+- **`prerm`**: Added safe cleanup of `/etc/bash.bashrc`, `/etc/zsh/zshrc`, and `/etc/profile.d/shutils.sh` on package removal.
+- **`postrm`**: Added final cleanup on `purge` without removing package-owned files managed by `dpkg`.
+- **`preinst`**: Simplified pre-install script to avoid deleting installed files during upgrade/reinstall.
+- **Upgrade safety**: Removed destructive maintenance behavior that could delete `/bin/shutils` during reinstall or package upgrade.
+- **Shell integration**: Improved idempotent shell hook registration, avoiding duplicate entries in `bashrc` and `zshrc`.
+- **Ubuntu 24.04 compatibility**: Adjusted maintainer scripts to behave correctly under newer Debian/Ubuntu package lifecycle handling.
+
 ## 0.5 (15/08/24)
 - **`portkill`**:Kill all processes running on a specific port.
 
