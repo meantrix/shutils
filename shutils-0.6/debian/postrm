@@ -1,24 +1,16 @@
 #!/bin/bash
-
 set -e
 set -x
 
+BASHRC_FILE="/etc/bash.bashrc"
+ZSHRC_FILE="/etc/zsh/zshrc"
+PROFILE_FILE="/etc/profile.d/shutils.sh"
+
 case "$1" in
-    remove|upgrade|failed-upgrade|disappear)
-        # Remove as configurações relacionadas ao shutils do arquivo /etc/bash.bashrc
-        sed -i '/\. \/etc\/profile\.d\/shutils\.sh/d' /etc/bash.bashrc
-
-        # Remove o arquivo /etc/profile.d/shutils.sh
-        rm -f /etc/profile.d/shutils.sh
-
-        # Remove os diretórios /usr/share/shutils e /bin/shutils se eles existirem
-        if [ -d "/usr/share/shutils" ]; then
-            rm -rf "/usr/share/shutils"
-        fi
-
-        if [ -d "/bin/shutils" ]; then
-            rm -rf "/bin/shutils"
-        fi
+    purge)
+        sed -i '\|^\. /etc/profile\.d/shutils\.sh$|d' "$BASHRC_FILE" || true
+        sed -i '\|^\. /etc/profile\.d/shutils\.sh$|d' "$ZSHRC_FILE" || true
+        rm -f "$PROFILE_FILE" || true
         ;;
 esac
 
