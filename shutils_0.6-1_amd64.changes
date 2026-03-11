@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sat, 21 Feb 2026 18:59:48 -0300
+Source: shutils
+Binary: shutils
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 0.6-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Igor Siciliani <dev@meantrix.com>
+Changed-By: rogi <rogi@unknown>
+Description:
+ shutils    - Bash useful functions
+Changes:
+ shutils (0.6-1) UNRELEASED; urgency=medium
+ .
+   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ fb335ed7177041464472687ed445032c1e1240c9 797 shutils_0.6-1.dsc
+ e98ef0b569030ed54ecb84a35a4ce639911f8309 9440 shutils_0.6.orig.tar.xz
+ ad21f5c363e9db4b79d78ad6a274b03e90d8bcb5 9528 shutils_0.6-1.debian.tar.xz
+ 921ba184411e8962f086273d17bf530972972cc2 13478 shutils_0.6-1_all.deb
+ d4ce74e0692700c8f540e3baa2415758f5ce0d83 6109 shutils_0.6-1_amd64.buildinfo
+Checksums-Sha256:
+ 97c11a1f82aca11f2055d66c4673c6fde28a4598e1e4fdc1d78e0b9889d9afbb 797 shutils_0.6-1.dsc
+ 5dea7614a44f6a9b98fc6d8ef68e6f2d47f55f2c9db557fcbb1c49f6c7549269 9440 shutils_0.6.orig.tar.xz
+ a53b5ad8dbd9183661210a0ffdc5196e63b3c0afdcd08f681e4d76692ae999e1 9528 shutils_0.6-1.debian.tar.xz
+ 3b5c601786ba76493f3f1b37cb6c4b976b2fa9422db5d716ca859e4a89c688b2 13478 shutils_0.6-1_all.deb
+ e126ee51a6f63d98fc6f868e36f74d47093f01ef8181e176ab95e5a5ee65cf9d 6109 shutils_0.6-1_amd64.buildinfo
+Files:
+ 38d6bc88fb76da48ff03618590ff5167 797 unknown optional shutils_0.6-1.dsc
+ 4521e55d01f22594ed2b2efcffad48ef 9440 unknown optional shutils_0.6.orig.tar.xz
+ feed6718d24a7eec76241a6ec2c3c5c8 9528 unknown optional shutils_0.6-1.debian.tar.xz
+ 8b09f389bc6384a651c597ea9cec866d 13478 unknown optional shutils_0.6-1_all.deb
+ 9727a08c5f988b623fa0b3a25ac2b9e6 6109 unknown optional shutils_0.6-1_amd64.buildinfo
