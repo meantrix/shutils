@@ -1,0 +1,17 @@
+#!/bin/bash
+set -e
+set -x
+
+BASHRC_FILE="/etc/bash.bashrc"
+ZSHRC_FILE="/etc/zsh/zshrc"
+PROFILE_FILE="/etc/profile.d/shutils.sh"
+
+case "$1" in
+    remove|deconfigure)
+        sed -i '\|^\. /etc/profile\.d/shutils\.sh$|d' "$BASHRC_FILE" || true
+        sed -i '\|^\. /etc/profile\.d/shutils\.sh$|d' "$ZSHRC_FILE" || true
+        rm -f "$PROFILE_FILE" || true
+        ;;
+esac
+
+exit 0
