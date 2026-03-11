@@ -35,6 +35,6 @@ f782554e1a46d22c1dab450f8a4e3657  bin/shutils/shutils.sh
 3b04796c40d49d4233bac74c0079cc17  bin/shutils/version.sh
 40be59de6d205d06232ff08bad4f3969  bin/shutils/whoisport.sh
 17adbd518087221ea8901812702b2e9c  usr/share/doc-base/shutils.shutils
-21c0c2ba1c81790f1465b2133f9b5cca  usr/share/doc/shutils/README.Debian
-b22d8c9b1ed7cb1037849463698ba4bd  usr/share/doc/shutils/changelog.Debian.gz
-1e2ce21557484b04d7908b525a0e4dbe  usr/share/doc/shutils/copyright
+8bc5b9cb3532249c478e2e3395f28ffe  usr/share/doc/shutils/README.Debian
+e9ce09208311c2bd3c55669361ad2e2f  usr/share/doc/shutils/changelog.Debian.gz
+3311bcd1dc9903822aaa586c883ddd81  usr/share/doc/shutils/copyright

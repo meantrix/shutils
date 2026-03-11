@@ -1,6 +1,6 @@
 % shutils(SECTION) | User Commands
 %
-% "February 21 2026"
+% "March 10 2026"
 
 [comment]: # The lines above form a Pandoc metadata block. They must be
 [comment]: # the first ones in the file.
@@ -112,12 +112,12 @@ available via the **info**(1) system.
 
 # AUTHOR
 
-rogi <rogi@unknown>
+Igor Siciliani <dev@meantrix.com>
 :   Wrote this manpage for the Debian system.
 
 # COPYRIGHT
 
-Copyright © 2007 rogi
+Copyright © 2007 Igor Siciliani
 
 This manual page was written for the Debian system (and may be used by
 others).

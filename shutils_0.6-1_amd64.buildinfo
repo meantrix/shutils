@@ -4,19 +4,20 @@ Binary: shutils
 Architecture: all source
 Version: 0.6-1
 Checksums-Md5:
- 38d6bc88fb76da48ff03618590ff5167 797 shutils_0.6-1.dsc
- 8b09f389bc6384a651c597ea9cec866d 13478 shutils_0.6-1_all.deb
+ 3850b8bf6b90b908bd4d0add71fa11db 797 shutils_0.6-1.dsc
+ e13c3f5f44e22c90cc2b75e0e8c69c91 13222 shutils_0.6-1_all.deb
 Checksums-Sha1:
- fb335ed7177041464472687ed445032c1e1240c9 797 shutils_0.6-1.dsc
- 921ba184411e8962f086273d17bf530972972cc2 13478 shutils_0.6-1_all.deb
+ 735458c3d733c1ad83ef0660d2bcde53f0723f5d 797 shutils_0.6-1.dsc
+ f03be58e5c6f4bf45601d6fa76f19b88d56fa1dc 13222 shutils_0.6-1_all.deb
 Checksums-Sha256:
- 97c11a1f82aca11f2055d66c4673c6fde28a4598e1e4fdc1d78e0b9889d9afbb 797 shutils_0.6-1.dsc
- 3b5c601786ba76493f3f1b37cb6c4b976b2fa9422db5d716ca859e4a89c688b2 13478 shutils_0.6-1_all.deb
+ 42445aa5e1cff2faa6777f98dcc9dff82bb57074ebf010ffd8e5d4090c26de4b 797 shutils_0.6-1.dsc
+ 6f971a4bb5d6798892150800c9bd0c3576dd6aff2b2306f9b58f07a301585975 13222 shutils_0.6-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 21 Feb 2026 19:01:11 -0300
+Build-Date: Tue, 10 Mar 2026 23:43:38 -0300
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
+ usr-local-has-libraries
  usr-local-has-programs
 Installed-Build-Depends:
  autoconf (= 2.71-3),
@@ -148,7 +149,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.39.3-9ubuntu6.4),
  libxml2 (= 2.9.14+dfsg-1.3ubuntu3.7),
  libzstd1 (= 1.5.5+dfsg2-2build1.1),
- linux-libc-dev (= 6.8.0-100.100),
+ linux-libc-dev (= 6.8.0-101.101),
  login (= 1:4.13+dfsg1-4ubuntu3.2),
  lto-disabled-list (= 47),
  m4 (= 1.4.19-4build1),
@@ -171,7 +172,7 @@ Installed-Build-Depends:
  xz-utils (= 5.6.1+really5.4.5-1ubuntu0.2),
  zlib1g (= 1:1.3.dfsg-3.1ubuntu2.1)
 Environment:
- DEB_BUILD_OPTIONS="parallel=12"
+ DEB_BUILD_OPTIONS="parallel=16"
  DEB_BUILD_PROFILES="noudeb"
- LANG="pt_BR.UTF-8"
- SOURCE_DATE_EPOCH="1771711188"
+ LANG="en_US.UTF-8"
+ SOURCE_DATE_EPOCH="1773196978"

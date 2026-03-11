@@ -1,50 +1,279 @@
  dpkg-buildpackage -us -uc -ui
-dpkg-buildpackage: informação: pacote fonte shutils
-dpkg-buildpackage: informação: versão da fonte 0.6-1
-dpkg-buildpackage: informação: distribuição fonte UNRELEASED
-dpkg-buildpackage: informação: fonte alterada por rogi <rogi@unknown>
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+dpkg-buildpackage: info: source package shutils
+dpkg-buildpackage: info: source version 0.6-1
+dpkg-buildpackage: info: source distribution UNRELEASED
+dpkg-buildpackage: info: source changed by Igor Siciliani <dev@meantrix.com>
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
  dpkg-source --before-build .
-dpkg-buildpackage: informação: arquitetura do servidor amd64
+dpkg-buildpackage: info: host architecture amd64
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
  fakeroot debian/rules clean
 dh clean
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_clean
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
  dpkg-source -b .
-dpkg-source: informação: a usar formato fonte '3.0 (quilt)'
-dpkg-source: informação: a compilar shutils usando ./shutils_0.6.orig.tar.xz existente
-dpkg-source: informação: compilando shutils no shutils_0.6-1.debian.tar.xz
-dpkg-source: informação: compilando shutils no shutils_0.6-1.dsc
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building shutils using existing ./shutils_0.6.orig.tar.xz
+dpkg-source: info: building shutils in shutils_0.6-1.debian.tar.xz
+dpkg-source: info: building shutils in shutils_0.6-1.dsc
  debian/rules build
 dh build
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_update_autotools_config
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_autoreconf
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    create-stamp debian/debhelper-build-stamp
  fakeroot debian/rules binary
 dh binary
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_testroot
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_prep
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_auto_install --destdir=debian/shutils/
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_install
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_installdocs
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_installchangelogs
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_perl
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_link
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_strip_nondeterminism
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_compress
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_fixperms
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_missing
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_installdeb
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_gencontrol
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_md5sums
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
    dh_builddeb
-dpkg-deb: a compilar o pacote 'shutils' em '../shutils_0.6-1_all.deb'.
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+dpkg-deb: building package 'shutils' in '../shutils_0.6-1_all.deb'.
  dpkg-genbuildinfo -O../shutils_0.6-1_amd64.buildinfo
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
  dpkg-genchanges -O../shutils_0.6-1_amd64.changes
-dpkg-genchanges: informação: incluindo todos os códigos fonte no upload
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+dpkg-genchanges: info: including full source code in upload
  dpkg-source --after-build .
-dpkg-buildpackage: informação: envio completo (fontes originais estão inclusas)
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+dpkg-buildpackage: info: full upload (original source is included)
 Now running lintian shutils_0.6-1_amd64.changes ...
-E: shutils changes: bogus-mail-host Changed-By rogi@unknown
-E: shutils: bogus-mail-host-in-debian-changelog rogi@unknown (for version 0.6-1) [usr/share/doc/shutils/changelog.Debian.gz:1]
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
 E: shutils: changelog-is-dh_make-template [usr/share/doc/shutils/changelog.Debian.gz:1]
 E: shutils: copyright-contains-dh_make-todo-boilerplate
 E: shutils source: debian-rules-is-dh_make-template [debian/rules:22]
@@ -111,12 +340,11 @@ W: shutils: executable-not-elf-or-script [bin/shutils/ssd.sh]
 W: shutils: executable-not-elf-or-script [bin/shutils/version.sh]
 W: shutils: executable-not-elf-or-script [bin/shutils/whoisport.sh]
 W: shutils: initial-upload-closes-no-bugs [usr/share/doc/shutils/changelog.Debian.gz:1]
-W: shutils: maintainer-script-ignores-errors [preinst]
+W: shutils: maintainer-script-empty [preinst]
 W: shutils source: maintainer-script-lacks-debhelper-token [debian/postinst]
 W: shutils source: maintainer-script-lacks-debhelper-token [debian/postrm]
 W: shutils source: maintainer-script-lacks-debhelper-token [debian/preinst]
-W: shutils: readme-debian-contains-invalid-email-address rogi@unknown [usr/share/doc/shutils/README.Debian]
-W: shutils: recursive-privilege-change "chmod -R" [postinst:10]
+W: shutils source: maintainer-script-lacks-debhelper-token [debian/prerm]
 W: shutils source: space-in-std-shortname-in-dep5-copyright <special license> [debian/copyright:11]
 W: shutils: wrong-bug-number-in-closes #nnnn [usr/share/doc/shutils/changelog.Debian.gz:3]
 Finished running lintian.
