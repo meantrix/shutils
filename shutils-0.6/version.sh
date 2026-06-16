@@ -4,6 +4,6 @@
 #  package version echo.
 #######################################
 version () {
-    local v="0.5"
+    local v="0.6"
     echo "shutils ($v) unstable; urgency=medium"
 }
