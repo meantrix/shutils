@@ -2,11 +2,11 @@
 set -e
 set -x
 
-SHUTILS_FILE="/usr/lib/shutils/shutils.sh"
+SHUTILS_FILE="/bin/shutils/shutils.sh"
 PROFILE_FILE="/etc/profile.d/shutils.sh"
 BASHRC_FILE="/etc/bash.bashrc"
 ZSHRC_FILE="/etc/zsh/zshrc"
-HOOK_LINE=". ${PROFILE_FILE}"
+HOOK_LINE='. /etc/profile.d/shutils.sh'
 
 if [ ! -f "$SHUTILS_FILE" ]; then
     echo "Error: can't find $SHUTILS_FILE"

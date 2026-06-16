@@ -7,7 +7,7 @@ ZSHRC_FILE="/etc/zsh/zshrc"
 PROFILE_FILE="/etc/profile.d/shutils.sh"
 
 case "$1" in
-    purge)
+    remove|deconfigure)
         sed -i '\|^\. /etc/profile\.d/shutils\.sh$|d' "$BASHRC_FILE" || true
         sed -i '\|^\. /etc/profile\.d/shutils\.sh$|d' "$ZSHRC_FILE" || true
         rm -f "$PROFILE_FILE" || true

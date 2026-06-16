@@ -1,0 +1,5 @@
+shutils (0.6-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Igor Siciliani <dev@meantrix.com>  Tue, 10 Mar 2026 23:42:58 -0300
